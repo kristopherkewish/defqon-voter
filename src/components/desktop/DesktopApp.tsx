@@ -5,8 +5,12 @@ import { FESTIVAL, mainStagesOf } from "../../data/festival";
 import { VoterToggle } from "./VoterToggle";
 import { StageBar } from "./StageBar";
 import { TimeGrid, type FilterMode } from "./TimeGrid";
+import { ScheduleView } from "./ScheduleView";
 import { ReactTray } from "./ReactTray";
+import { buildSchedule } from "../../lib/schedule";
 import type { Act, Stage } from "../../types";
+
+type View = "grid" | "schedule";
 
 interface Anchor {
   act: Act;
@@ -25,6 +29,7 @@ export function DesktopApp() {
   const [dayIdx, setDayIdx] = useState(1); // Friday default
   const day = FESTIVAL.days[dayIdx];
   const [filter, setFilter] = useState<FilterMode>("all");
+  const [view, setView] = useState<View>("grid");
   const [sheet, setSheet] = useState<Anchor | null>(null);
 
   // per-day stage visibility, lazily initialised to "Main"
@@ -70,6 +75,15 @@ export function DesktopApp() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [day, JSON.stringify(VS.all())]);
 
+  // current user's must-see schedule for the day (laid out into overlap lanes)
+  const me = VS.getMe();
+  const scheduled = useMemo(
+    () => buildSchedule(day, (id) => VS.votesFor(id)[me] === "must"),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [day, me, JSON.stringify(VS.all())],
+  );
+  const conflicts = scheduled.filter((s) => s.cols > 1).length;
+
   return (
     <div className="app">
       <header className="topbar">
@@ -94,37 +108,74 @@ export function DesktopApp() {
       </header>
 
       <div className="subbar">
-        <StageBar day={day} visible={visible} setVisible={setVisible} />
+        {view === "grid" && <StageBar day={day} visible={visible} setVisible={setVisible} />}
         <div className="subbar-right">
-          <div className="seg">
-            {FILTERS.map(([k, l]) => (
-              <button
-                key={k}
-                className={"segbtn" + (filter === k ? " on" : "")}
-                onClick={() => setFilter(k)}
-              >
-                {l}
-              </button>
-            ))}
+          <div className="viewtoggle">
+            <button
+              className={"vt-btn" + (view === "grid" ? " on" : "")}
+              onClick={() => setView("grid")}
+            >
+              Grid
+            </button>
+            <button
+              className={"vt-btn" + (view === "schedule" ? " on" : "")}
+              onClick={() => setView("schedule")}
+            >
+              My schedule
+            </button>
           </div>
+          {view === "grid" && (
+            <div className="seg">
+              {FILTERS.map(([k, l]) => (
+                <button
+                  key={k}
+                  className={"segbtn" + (filter === k ? " on" : "")}
+                  onClick={() => setFilter(k)}
+                >
+                  {l}
+                </button>
+              ))}
+            </div>
+          )}
           <div className="stats">
-            <span className="stat">
-              <b>{mustCount}</b> must-sees
-            </span>
-            <span className={"stat clashstat" + (clashSet.size ? " active" : "")}>
-              <b>{(clashSet.size / 2) | 0}</b> clashes
-            </span>
+            {view === "grid" ? (
+              <>
+                <span className="stat">
+                  <b>{mustCount}</b> must-sees
+                </span>
+                <span className={"stat clashstat" + (clashSet.size ? " active" : "")}>
+                  <b>{(clashSet.size / 2) | 0}</b> clashes
+                </span>
+              </>
+            ) : (
+              <>
+                <span className="stat">
+                  <b>{scheduled.length}</b> must-sees
+                </span>
+                <span className={"stat clashstat" + (conflicts ? " active" : "")}>
+                  <b>{conflicts}</b> conflicts
+                </span>
+              </>
+            )}
           </div>
         </div>
       </div>
 
-      <TimeGrid
-        day={day}
-        visible={visible}
-        filter={filter}
-        clashSet={clashSet}
-        onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
-      />
+      {view === "grid" ? (
+        <TimeGrid
+          day={day}
+          visible={visible}
+          filter={filter}
+          clashSet={clashSet}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      ) : (
+        <ScheduleView
+          scheduled={scheduled}
+          dayName={day.day}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      )}
 
       {sheet && (
         <ReactTray

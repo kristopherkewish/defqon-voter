@@ -4,10 +4,14 @@ import { store as MVS } from "../../store/voteStore";
 import { FESTIVAL, mainStagesOf } from "../../data/festival";
 import { MAvatars } from "./MAvatars";
 import { MGrid } from "./MGrid";
+import { MScheduleView } from "./MScheduleView";
 import { MTray } from "./MTray";
+import { buildSchedule } from "../../lib/schedule";
 import type { CSSVars } from "../style";
 import type { Act, Stage } from "../../types";
 import type { FilterMode } from "../desktop/TimeGrid";
+
+type View = "grid" | "schedule";
 
 interface Anchor {
   act: Act;
@@ -26,6 +30,7 @@ export function MobileApp() {
   const [dayIdx, setDayIdx] = useState(1);
   const day = FESTIVAL.days[dayIdx];
   const [filter, setFilter] = useState<FilterMode>("all");
+  const [view, setView] = useState<View>("grid");
   const [sheet, setSheet] = useState<Anchor | null>(null);
   const visRef = useRef<Record<number, Set<string>>>({});
   const [, bump] = useState(0);
@@ -72,6 +77,15 @@ export function MobileApp() {
 
   const clashes = (clashSet.size / 2) | 0;
 
+  // current user's must-see schedule for the day
+  const me = MVS.getMe();
+  const scheduled = useMemo(
+    () => buildSchedule(day, (id) => MVS.votesFor(id)[me] === "must"),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [day, me, JSON.stringify(MVS.all())],
+  );
+  const conflicts = scheduled.filter((s) => s.cols > 1).length;
+
   return (
     <div className="mroot">
       <header className="m-header">
@@ -79,6 +93,12 @@ export function MobileApp() {
           <div className="m-brand">
             DEF<b>QON</b>.1
           </div>
+          <button
+            className="m-viewtoggle"
+            onClick={() => setView(view === "grid" ? "schedule" : "grid")}
+          >
+            {view === "grid" ? "📅 Schedule" : "▦ Grid"}
+          </button>
           <MAvatars />
         </div>
         <div className="m-days">
@@ -93,60 +113,77 @@ export function MobileApp() {
             </button>
           ))}
         </div>
-        <div className="m-controls">
-          <div className="m-presets">
-            <button
-              className={"m-preset" + (isMain ? " on" : "")}
-              onClick={() => setVisible(new Set(main))}
-            >
-              Main
-            </button>
-            <button
-              className={"m-preset" + (allOn ? " on" : "")}
-              onClick={() => setVisible(new Set(names))}
-            >
-              All
-            </button>
-          </div>
-          <div className="m-seg">
-            {FILTERS.map(([k, l]) => (
-              <button
-                key={k}
-                className={"m-segbtn" + (filter === k ? " on" : "")}
-                onClick={() => setFilter(k)}
-              >
-                {l}
-              </button>
-            ))}
-          </div>
-        </div>
-        <div className="m-chiprow">
-          {day.stages.map((s) => {
-            const on = visible.has(s.name);
-            return (
-              <button
-                key={s.name}
-                className={"m-schip" + (on ? " on" : "") + (s.minor ? " minor" : "")}
-                style={{ "--sc": s.color } as CSSVars}
-                onClick={() => toggle(s.name)}
-              >
-                <span className="m-sdot"></span>
-                {s.name}
-              </button>
-            );
-          })}
-        </div>
+        {view === "grid" && (
+          <>
+            <div className="m-controls">
+              <div className="m-presets">
+                <button
+                  className={"m-preset" + (isMain ? " on" : "")}
+                  onClick={() => setVisible(new Set(main))}
+                >
+                  Main
+                </button>
+                <button
+                  className={"m-preset" + (allOn ? " on" : "")}
+                  onClick={() => setVisible(new Set(names))}
+                >
+                  All
+                </button>
+              </div>
+              <div className="m-seg">
+                {FILTERS.map(([k, l]) => (
+                  <button
+                    key={k}
+                    className={"m-segbtn" + (filter === k ? " on" : "")}
+                    onClick={() => setFilter(k)}
+                  >
+                    {l}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="m-chiprow">
+              {day.stages.map((s) => {
+                const on = visible.has(s.name);
+                return (
+                  <button
+                    key={s.name}
+                    className={"m-schip" + (on ? " on" : "") + (s.minor ? " minor" : "")}
+                    style={{ "--sc": s.color } as CSSVars}
+                    onClick={() => toggle(s.name)}
+                  >
+                    <span className="m-sdot"></span>
+                    {s.name}
+                  </button>
+                );
+              })}
+            </div>
+          </>
+        )}
       </header>
-      <MGrid
-        day={day}
-        visible={visible}
-        filter={filter}
-        clashSet={clashSet}
-        onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
-      />
-      {clashes > 0 && (
+      {view === "grid" ? (
+        <MGrid
+          day={day}
+          visible={visible}
+          filter={filter}
+          clashSet={clashSet}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      ) : (
+        <MScheduleView
+          scheduled={scheduled}
+          dayName={day.day}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      )}
+      {view === "grid" && clashes > 0 && (
         <div className="m-clashbar">
           {clashes} clash{clashes > 1 ? "es" : ""} in your group picks
+        </div>
+      )}
+      {view === "schedule" && conflicts > 0 && (
+        <div className="m-clashbar">
+          {conflicts} time conflict{conflicts > 1 ? "s" : ""} in your picks
         </div>
       )}
       {sheet && (
