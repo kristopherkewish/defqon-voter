@@ -1,0 +1,4100 @@
+{
+  "event": "Defqon.1 2026",
+  "location": "Biddinghuizen",
+  "days": [
+    {
+      "day": "Thursday",
+      "date": "2026-06-25",
+      "stages": [
+        {
+          "name": "Blue",
+          "position": 3,
+          "color": "#0BDBEF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "D-Sturb",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "PIxQfc2eRTmI1UHFM0e7Kg",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "DJ Isaac",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "TNITQMXFSJeFhF1bbObiVw",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Coone",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "cMdRFnK2QIeMDXEdUpUztg",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Ran-D & Adaro",
+              "start": "21:00",
+              "end": "21:50",
+              "id": "EiBpn-ybT_yKUqtoT3Lkjw",
+              "host": false,
+              "sm": 1260,
+              "em": 1310
+            },
+            {
+              "name": "D-Block & S-te-Fan",
+              "start": "21:50",
+              "end": "22:55",
+              "id": "VPw1CLUkQraVqWFoIq1rkQ",
+              "host": false,
+              "sm": 1310,
+              "em": 1375
+            }
+          ]
+        },
+        {
+          "name": "Black",
+          "position": 4,
+          "color": "#878787",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Miss K8",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "TIZOoYr9Sw-xs5dM5AO2MQ",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Evil Activities",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "Dra-gs9sRsO5EbzjRMt82w",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "AniMe",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "bmNfk9o1QOGgm0vDQDIAUQ",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Gezellige Uptempo",
+              "start": "21:00",
+              "end": "21:45",
+              "id": "KRxvHVwXRg2qbgEAvqD0SQ",
+              "host": false,
+              "sm": 1260,
+              "em": 1305
+            },
+            {
+              "name": "Noxiouz",
+              "start": "21:45",
+              "end": "22:30",
+              "id": "TNQwfI1qTe6_DGIGonNFlg",
+              "host": false,
+              "sm": 1305,
+              "em": 1350
+            },
+            {
+              "name": "The Spotlight with Hysta",
+              "start": "22:30",
+              "end": "23:00",
+              "id": "MNpr8RvhQiGZ3F7Mb7AjIg",
+              "host": false,
+              "sm": 1350,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Indigo",
+          "position": 7,
+          "color": "#3842DA",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Cryex",
+              "start": "18:00",
+              "end": "18:45",
+              "id": "HZWk15zNTGaW1SXcrzG3Tg",
+              "host": false,
+              "sm": 1080,
+              "em": 1125
+            },
+            {
+              "name": "Deluzion",
+              "start": "18:45",
+              "end": "19:30",
+              "id": "ZFFVv9doQ0K0HYLmmQd49w",
+              "host": false,
+              "sm": 1125,
+              "em": 1170
+            },
+            {
+              "name": "Rejecta",
+              "start": "19:30",
+              "end": "20:15",
+              "id": "GJlvKDa-RYu9Sd11KUjdSw",
+              "host": false,
+              "sm": 1170,
+              "em": 1215
+            },
+            {
+              "name": "Mutilator & Adjuzt",
+              "start": "20:15",
+              "end": "21:15",
+              "id": "IYqHX1HcTkGpZXHYj-r8Jw",
+              "host": false,
+              "sm": 1215,
+              "em": 1275
+            },
+            {
+              "name": "Faceless, Sanctuary & Dark Entities",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "eU23mv2vRW-ZZlA5r8GlJA",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            },
+            {
+              "name": "Spitnoise & Unlocked",
+              "start": "22:00",
+              "end": "23:00",
+              "id": "QZ0vWzdXRZKERZxArKxZtw",
+              "host": false,
+              "sm": 1320,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Brown (silent)",
+          "position": 15,
+          "color": "#936037",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Ransom",
+              "start": "18:00",
+              "end": "19:30",
+              "id": "YGBiLQ1uT9SPU2_pdAWl8Q",
+              "host": false,
+              "sm": 1080,
+              "em": 1170
+            },
+            {
+              "name": "Ricardo Moreno",
+              "start": "19:30",
+              "end": "21:00",
+              "id": "SvvfmTzxTTCmyQ84ezNsag",
+              "host": false,
+              "sm": 1170,
+              "em": 1260
+            },
+            {
+              "name": "Plug 'N Play",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "KEjHNWdJTH6RTJzVbuUKVg",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            },
+            {
+              "name": "The Raver",
+              "start": "22:00",
+              "end": "23:00",
+              "id": "IwXUxIH7RB6iOliS1yCdng",
+              "host": false,
+              "sm": 1320,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Magenta (silent)",
+          "position": 22,
+          "color": "#FF008B",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Andy SVGE",
+              "start": "18:00",
+              "end": "19:30",
+              "id": "G3g5mJcNRqimHI_lyEdZ9A",
+              "host": false,
+              "sm": 1080,
+              "em": 1170
+            },
+            {
+              "name": "LARSTIG & GASDROP",
+              "start": "19:30",
+              "end": "21:00",
+              "id": "aGbz_3KoQPaaJcfVNuuRiA",
+              "host": false,
+              "sm": 1170,
+              "em": 1260
+            },
+            {
+              "name": "Dr. Rude \"Jump Classics\"",
+              "start": "21:00",
+              "end": "22:15",
+              "id": "OmbbgT2JTRKRwo8L8bNJFA",
+              "host": false,
+              "sm": 1260,
+              "em": 1335
+            },
+            {
+              "name": "Act of Rage & Adrenalize",
+              "start": "22:15",
+              "end": "23:15",
+              "id": "f-uS1xJkQCWCysUhHzf5pw",
+              "host": false,
+              "sm": 1335,
+              "em": 1395
+            },
+            {
+              "name": "Deepack",
+              "start": "23:15",
+              "end": "00:30",
+              "id": "OjlA1_XgRviqcLR7-FGz7A",
+              "host": false,
+              "sm": 1395,
+              "em": 1470
+            },
+            {
+              "name": "Goldschool with Friends",
+              "start": "00:30",
+              "end": "02:00",
+              "id": "Jbmw4cl4QCSVIaRke7Op4A",
+              "host": false,
+              "sm": 1470,
+              "em": 1560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "date": "2026-06-26",
+      "stages": [
+        {
+          "name": "Red",
+          "position": 2,
+          "color": "#FF0000",
+          "minor": false,
+          "acts": [
+            {
+              "name": "The Opening Ceremony with Outsiders",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "V1vfDL4yQryNEat5xrAU1g",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Jay Reeve & Ecstatic ft Synergy",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "DdfV6p0PTIecxRn480_tzA",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "The Purge & MANDY",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "Jvpg6IvNTTStb-5cCnCkyA",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "The Straikerz \"All On Red\"",
+              "start": "16:00",
+              "end": "16:30",
+              "id": "fs8LyboQQOu_K6dS8cqMBQ",
+              "host": false,
+              "sm": 960,
+              "em": 990
+            },
+            {
+              "name": "Da Tweekaz",
+              "start": "16:30",
+              "end": "17:15",
+              "id": "CTZEHa1jRruiocBZSIDfmQ",
+              "host": false,
+              "sm": 990,
+              "em": 1035
+            },
+            {
+              "name": "Rejecta & Adaro",
+              "start": "17:15",
+              "end": "18:00",
+              "id": "ejtHbzl1TrS380PlpJc8dQ",
+              "host": false,
+              "sm": 1035,
+              "em": 1080
+            },
+            {
+              "name": "REDRACE WINNER",
+              "start": "18:00",
+              "end": "18:30",
+              "id": "c8L_W29ITVycmQjDLBWOGw",
+              "host": false,
+              "sm": 1080,
+              "em": 1110
+            },
+            {
+              "name": "Warface x Restricted",
+              "start": "18:30",
+              "end": "19:15",
+              "id": "Z30SL-oWQ2WDM95NrLIhnQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1155
+            },
+            {
+              "name": "Darren Styles",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "RgEZ6uHbTeq255RZUqyr5Q",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            },
+            {
+              "name": "Sound Rush",
+              "start": "20:00",
+              "end": "20:45",
+              "id": "S4tRK9tXR7S7Ls6_uqdsiQ",
+              "host": false,
+              "sm": 1200,
+              "em": 1245
+            },
+            {
+              "name": "Sub Zero Project",
+              "start": "20:45",
+              "end": "21:45",
+              "id": "B5EexvJdTaC9qbDvgflngQ",
+              "host": false,
+              "sm": 1245,
+              "em": 1305
+            },
+            {
+              "name": "Sickmode",
+              "start": "21:45",
+              "end": "22:20",
+              "id": "dFMsHm6JTLey1cbPye0vZQ",
+              "host": false,
+              "sm": 1305,
+              "em": 1340
+            },
+            {
+              "name": "The Spotlight with Brennan Heart",
+              "start": "22:20",
+              "end": "23:00",
+              "id": "GkbWGs7oTyKU4phtH-QqyQ",
+              "host": false,
+              "sm": 1340,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Blue",
+          "position": 3,
+          "color": "#0BDBEF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Chain Reaction & Luna 'The Classic Journey'",
+              "start": "11:00",
+              "end": "12:15",
+              "id": "a6RsAYhfSPWcxQPgIUmQxg",
+              "host": false,
+              "sm": 660,
+              "em": 735
+            },
+            {
+              "name": "Kronos: Choose Your Era",
+              "start": "12:15",
+              "end": "13:15",
+              "id": "C9FVzjwLQJGtWW8MkTHCaA",
+              "host": false,
+              "sm": 735,
+              "em": 795
+            },
+            {
+              "name": "Digital Punk",
+              "start": "13:15",
+              "end": "14:00",
+              "id": "NEOgLsalS9KBnKpzhBkvrw",
+              "host": false,
+              "sm": 795,
+              "em": 840
+            },
+            {
+              "name": "B-Frontliner",
+              "start": "14:00",
+              "end": "14:30",
+              "id": "SaTkaE7dQyyhLKnNflY2pA",
+              "host": false,
+              "sm": 840,
+              "em": 870
+            },
+            {
+              "name": "E-Force & Wolv",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "RMZa6ie5SCiksHF5RDIUFw",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "Devin Wild - Among the noise",
+              "start": "15:30",
+              "end": "16:00",
+              "id": "e9EJr6DlSHiOWvAw95Datg",
+              "host": false,
+              "sm": 930,
+              "em": 960
+            },
+            {
+              "name": "Holy Priest",
+              "start": "16:00",
+              "end": "16:45",
+              "id": "FHbnfmSnRjCfRsfq_fcsEA",
+              "host": false,
+              "sm": 960,
+              "em": 1005
+            },
+            {
+              "name": "End of Line: Cryex, Bloodlust & Omnya",
+              "start": "16:45",
+              "end": "17:45",
+              "id": "bPWFnrWsSTy2M9bSJrOl3g",
+              "host": false,
+              "sm": 1005,
+              "em": 1065
+            },
+            {
+              "name": "The Saints",
+              "start": "17:45",
+              "end": "18:45",
+              "id": "BX8uNeEKSDa45unjy7cZ6A",
+              "host": false,
+              "sm": 1065,
+              "em": 1125
+            },
+            {
+              "name": "Aversion",
+              "start": "18:45",
+              "end": "19:30",
+              "id": "ardqG8ysQSipnyF8OAucBA",
+              "host": false,
+              "sm": 1125,
+              "em": 1170
+            },
+            {
+              "name": "Mutilator",
+              "start": "19:30",
+              "end": "20:15",
+              "id": "Yh-3frmnSzml--dJXbm6NA",
+              "host": false,
+              "sm": 1170,
+              "em": 1215
+            },
+            {
+              "name": "Radical Redemption “The Return to the Tribe”",
+              "start": "20:15",
+              "end": "21:15",
+              "id": "ef_ESabPTrS6rmZ-qynixQ",
+              "host": false,
+              "sm": 1215,
+              "em": 1275
+            },
+            {
+              "name": "Unresolved",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "RG6gdHgVSw2CPDN51tTYhA",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Black",
+          "position": 4,
+          "color": "#878787",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Noiseflow & Cyber Gunz & Schlot presents The Great Krach Show",
+              "start": "11:15",
+              "end": "12:30",
+              "id": "Ie0Xb9RORmuU7amXuujXxg",
+              "host": false,
+              "sm": 675,
+              "em": 750
+            },
+            {
+              "name": "Restrained",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "WanQLKl4SxmBelqbpyJVfQ",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "Namara",
+              "start": "13:30",
+              "end": "14:45",
+              "id": "VOqQnZXATlqv3n_DssDSEA",
+              "host": false,
+              "sm": 810,
+              "em": 885
+            },
+            {
+              "name": "Tha Playah & Never Surrender",
+              "start": "14:45",
+              "end": "16:00",
+              "id": "dmuY5z0uRIKK_xWkv9airA",
+              "host": false,
+              "sm": 885,
+              "em": 960
+            },
+            {
+              "name": "EZG - Maximaal!",
+              "start": "16:00",
+              "end": "16:30",
+              "id": "X5WmTye5QuivOGcAKIKlxA",
+              "host": false,
+              "sm": 960,
+              "em": 990
+            },
+            {
+              "name": "Bulletproof",
+              "start": "16:30",
+              "end": "17:30",
+              "id": "bykC3XuuTLeq8rRM-m-z9A",
+              "host": false,
+              "sm": 990,
+              "em": 1050
+            },
+            {
+              "name": "Angerfist",
+              "start": "17:30",
+              "end": "18:30",
+              "id": "LobpMuw-R2uSGe_Sp2d8wA",
+              "host": false,
+              "sm": 1050,
+              "em": 1110
+            },
+            {
+              "name": "Dr. Peacock",
+              "start": "18:30",
+              "end": "19:30",
+              "id": "ZyZ4GmtpTQ-d1VSMyRFAnQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1170
+            },
+            {
+              "name": "Partyraiser",
+              "start": "19:30",
+              "end": "20:30",
+              "id": "Nzo-XVZeSaW8YcwC3LRsAw",
+              "host": false,
+              "sm": 1170,
+              "em": 1230
+            },
+            {
+              "name": "Slaughterhouse",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "aexJu8H_RDO2rb4CxrzdPQ",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "Noiseflow",
+              "start": "21:15",
+              "end": "22:15",
+              "id": "a2n_pX6rScOh9pfsDxkLuQ",
+              "host": false,
+              "sm": 1275,
+              "em": 1335
+            },
+            {
+              "name": "Rosbeek & Manifest Destiny",
+              "start": "22:15",
+              "end": "23:00",
+              "id": "cuBaWjR7Ss-EErT8lk3KbA",
+              "host": false,
+              "sm": 1335,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "U.V.",
+          "position": 5,
+          "color": "#D492FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "This is Sefa",
+              "start": "11:30",
+              "end": "12:30",
+              "id": "eTNSqcc7RpKDeTaAxuViyQ",
+              "host": false,
+              "sm": 690,
+              "em": 750
+            },
+            {
+              "name": "Anamorphic",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "G_2_rWSaSHOJYN8JNdmQkQ",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "Maxtreme",
+              "start": "13:30",
+              "end": "14:30",
+              "id": "FtbDT5RrQu6PRywapvIFmg",
+              "host": false,
+              "sm": 810,
+              "em": 870
+            },
+            {
+              "name": "Used Crossover set",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "UssNqTCvRnO6hLe7sHBelw",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "Solstice",
+              "start": "15:30",
+              "end": "16:15",
+              "id": "ZNM2GB4xTUqVMFTnfgiw_w",
+              "host": false,
+              "sm": 930,
+              "em": 975
+            },
+            {
+              "name": "Audiofreq",
+              "start": "16:15",
+              "end": "17:00",
+              "id": "EuDsVYypRBiZAErDnGGWtA",
+              "host": false,
+              "sm": 975,
+              "em": 1020
+            },
+            {
+              "name": "More Kords presents Zaagphoric",
+              "start": "17:00",
+              "end": "17:45",
+              "id": "W-BNyV4yQ1-3eygbtBATxQ",
+              "host": false,
+              "sm": 1020,
+              "em": 1065
+            },
+            {
+              "name": "Kutski & Gammer",
+              "start": "17:45",
+              "end": "18:45",
+              "id": "UzLkiqM2QUmSUN8lAnOBDQ",
+              "host": false,
+              "sm": 1065,
+              "em": 1125
+            },
+            {
+              "name": "Atmozfears",
+              "start": "18:45",
+              "end": "19:45",
+              "id": "LTZrzwI_SCONNVtUfDzGdA",
+              "host": false,
+              "sm": 1125,
+              "em": 1185
+            },
+            {
+              "name": "Toneshifterz",
+              "start": "19:45",
+              "end": "20:30",
+              "id": "CAExxQ62S3G9CZZtdqmtuw",
+              "host": false,
+              "sm": 1185,
+              "em": 1230
+            },
+            {
+              "name": "Noisecontrollers Two Decades",
+              "start": "20:30",
+              "end": "21:30",
+              "id": "cUJA79__Tz-qwSnopDlanA",
+              "host": false,
+              "sm": 1230,
+              "em": 1290
+            },
+            {
+              "name": "Bass Shock (Bass Modulators & Aftershock)",
+              "start": "21:30",
+              "end": "22:15",
+              "id": "brD1b5_9Qkit5MkWYiQBfg",
+              "host": false,
+              "sm": 1290,
+              "em": 1335
+            }
+          ]
+        },
+        {
+          "name": "Magenta",
+          "position": 6,
+          "color": "#FF008B",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Artic",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "C9PN8VpcSiWzsD7mhF92sw",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Alpha Twins",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "d6joFbO1QtKvP0N5k6cLQg",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Outbreak",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "bWXRLRZqRBe7FF49tn9YSg",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Sub Sonik 'My True DNA'",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "Em4i39WnTqe3_ETCkIY-EA",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Bass Chaserz - De Reünie",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "dnkCdTqlRc-j9ja3gpzqRg",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Jason Payne presents GOLDSCHOOL",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "f6rwK52PRpCXiw-C3wjgIw",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Crypsis",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "RHT8l8SxQ3q9YT8RiJX6ig",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "E-Force",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "D_rXh__jS82NTW441PQvTQ",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Regain",
+              "start": "19:00",
+              "end": "19:45",
+              "id": "XpENlkBDTd2xNDEv-8lZfw",
+              "host": false,
+              "sm": 1140,
+              "em": 1185
+            },
+            {
+              "name": "DJ Thera",
+              "start": "19:45",
+              "end": "20:30",
+              "id": "eR56CNQNQySltqYONBnc6A",
+              "host": false,
+              "sm": 1185,
+              "em": 1230
+            },
+            {
+              "name": "Mind Dimension",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "JfTx_x64QyeGKWpQ3Ve9Eg",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "Titan",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "K8gYnfrJSnWLWCmxutReUw",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Green",
+          "position": 8,
+          "color": "#00FF00",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Stanne",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "FKVQmHnMQLWiSE0-3Rlj8g",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Activator (a.k.a T78) & A*S*Y*S",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "NNY27ItzROylJT-jB7wfvw",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "AREA ØNE",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "KjPSbiWGTnWaXkmXQq9Byw",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Manji",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "MtmmXG5IQ1ureX1zgRVV3g",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "XRTN",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "ah7hRsfARLiDqDqU64cVxA",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Charlie Sparks",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "cYsqYeH_SL2VY_pWwEQ6kQ",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "AniMe & Jazzy",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "LWjdxDtwTi-AMUXHes0GBg",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Onlynumbers",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "LBCsQBM9Q0CYPXZt3S-zcw",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Vieze Asbak",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "FB-TY-lZSPeuUxtZNscM_Q",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "IMHAPPY",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "PbJQIV9tS6iMJZG-nKs0_g",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "BLNK",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "CbjDCFZSTHGEUXPMl5ytLg",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            },
+            {
+              "name": "JO3Y3T",
+              "start": "22:00",
+              "end": "23:00",
+              "id": "EEAAa05jTEmfYlImoFgpAQ",
+              "host": false,
+              "sm": 1320,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Yellow",
+          "position": 9,
+          "color": "#F1E300",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Vandal",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "CHFp0A1sRkq8KstoWnQrEg",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Cryogenic",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "bqcVbzwmT9GS860oBGnTag",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Aradia",
+              "start": "13:00",
+              "end": "13:45",
+              "id": "Fmt69gPaSWKT_iEG3wMofQ",
+              "host": false,
+              "sm": 780,
+              "em": 825
+            },
+            {
+              "name": "Double Trouble",
+              "start": "13:45",
+              "end": "14:30",
+              "id": "NdTdgHnTSmOFNZX_8a7Iww",
+              "host": false,
+              "sm": 825,
+              "em": 870
+            },
+            {
+              "name": "Doris",
+              "start": "14:30",
+              "end": "15:15",
+              "id": "VlFbtFhARKW-DT9WD3dJzQ",
+              "host": false,
+              "sm": 870,
+              "em": 915
+            },
+            {
+              "name": "T.M.O.",
+              "start": "15:15",
+              "end": "16:00",
+              "id": "BWPBsysbR92i8TL0WtiPfQ",
+              "host": false,
+              "sm": 915,
+              "em": 960
+            },
+            {
+              "name": "The Sickest Squad & D'ort",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "M9E9h663Qf6NVyrUpP8Qpg",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Complex",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "fnbxLBfESSqeW5ArcyFNtg",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Tharoza - Live or Die",
+              "start": "18:00",
+              "end": "18:30",
+              "id": "IUKTxZajRSmfgyb4pNyL7A",
+              "host": false,
+              "sm": 1080,
+              "em": 1110
+            },
+            {
+              "name": "Remzcore",
+              "start": "18:30",
+              "end": "19:30",
+              "id": "AMxST2ITS2uis9hOwEjSWw",
+              "host": false,
+              "sm": 1110,
+              "em": 1170
+            },
+            {
+              "name": "Samynator & UDOW",
+              "start": "19:30",
+              "end": "20:30",
+              "id": "K-mSpfdbS_uqjz9_mvHl_Q",
+              "host": false,
+              "sm": 1170,
+              "em": 1230
+            },
+            {
+              "name": "Tharken",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "PNjpl8GHTcyb1cEKsaeqPw",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "99PRBLMZ",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "Bp7nt-_kQ868cK_ItGacng",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Gold",
+          "position": 10,
+          "color": "#BB9551",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Miss Monica",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "EeqbMIWNQ4mF8WumnPWwrA",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Party Animals vs Flamman & Abraxas",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "DyrJsSspTuei21IiFzQUoQ",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "DJ Rob & MC Joe",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "UbkMhdNBSPevNT0ZdsdvdA",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Vince & DJ Ruffian",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "VhuNlW-3TN2cOHIBpoxCSw",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Dune",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "PImGsDEdR-i4t3nS-zGSog",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Marc Acardipane",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "IG2XxFSBScSMvl37B-91Rw",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Amnesys x Nico & Tetta",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "bcN3f_qUSsCqbSKo-uNnig",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "The Viper",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "UGovrKkSQOaUn9yz-BW2zQ",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Noize Suppressor",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "CvWMghwTS8SPKHmg3DDp_Q",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Destructive Tendencies",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "dX4dQbk4QI-NCInWHHzX_w",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Orange",
+          "position": 11,
+          "color": "#FF6500",
+          "minor": false,
+          "acts": [
+            {
+              "name": "DJ Thera pres. Tranceparency",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "ZxC_Ma72Q5q-cTana19Rfg",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Marcel Woods",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "Z8b6mFRrR2G1agC45xWDfg",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Olive Anguz",
+              "start": "13:00",
+              "end": "13:45",
+              "id": "YPkDB_E0ROmxAIufmlcBVg",
+              "host": false,
+              "sm": 780,
+              "em": 825
+            },
+            {
+              "name": "Panteros666",
+              "start": "13:45",
+              "end": "14:45",
+              "id": "TroICRGASi-zrnobVbvWAw",
+              "host": false,
+              "sm": 825,
+              "em": 885
+            },
+            {
+              "name": "David Forbes",
+              "start": "14:45",
+              "end": "15:45",
+              "id": "QvQcxDnOTECxHf1Cvx8jMw",
+              "host": false,
+              "sm": 885,
+              "em": 945
+            },
+            {
+              "name": "Will Atkinson",
+              "start": "15:45",
+              "end": "17:00",
+              "id": "JtAaP3FnSZWKftmdKjbz9Q",
+              "host": false,
+              "sm": 945,
+              "em": 1020
+            },
+            {
+              "name": "Geck-o \"The Soul Shaker\"",
+              "start": "17:00",
+              "end": "18:30",
+              "id": "ZoPuuWcdSy-_DZex6mxw1Q",
+              "host": false,
+              "sm": 1020,
+              "em": 1110
+            },
+            {
+              "name": "UBERJAKD",
+              "start": "18:30",
+              "end": "20:00",
+              "id": "EfvLBqqsT9WZvEDr8L7MHA",
+              "host": false,
+              "sm": 1110,
+              "em": 1200
+            },
+            {
+              "name": "Argy",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "fzr51-z8R3W98N8rjqa4oQ",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Steve Hill & Francesco Zeta",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "FlwpPKPFTsyPakidC3fnYQ",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Purple",
+          "position": 13,
+          "color": "#A100FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Plus+",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "d_ePlOGfTZ-Iff6rq9twLA",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "RED Race #4",
+              "start": "13:00",
+              "end": "13:45",
+              "id": "dFYu0lyOTlqOTHvdvlKjKg",
+              "host": false,
+              "sm": 780,
+              "em": 825
+            },
+            {
+              "name": "ARK8",
+              "start": "13:45",
+              "end": "14:30",
+              "id": "Xk5U2TGQTYy_M7r7gtVpKQ",
+              "host": false,
+              "sm": 825,
+              "em": 870
+            },
+            {
+              "name": "RED Race #2",
+              "start": "14:30",
+              "end": "15:15",
+              "id": "MVRLyis5TnegUlketeteTQ",
+              "host": false,
+              "sm": 870,
+              "em": 915
+            },
+            {
+              "name": "Simox",
+              "start": "15:15",
+              "end": "16:00",
+              "id": "Agh94LdpRYWf9z0KCtdmzA",
+              "host": false,
+              "sm": 915,
+              "em": 960
+            },
+            {
+              "name": "Distress",
+              "start": "16:00",
+              "end": "16:45",
+              "id": "UzhK2OTWTxqMJW4pKAuLwA",
+              "host": false,
+              "sm": 960,
+              "em": 1005
+            },
+            {
+              "name": "Nocturnal",
+              "start": "16:45",
+              "end": "17:30",
+              "id": "OLYGtVplQaiJhklrOT8GVA",
+              "host": false,
+              "sm": 1005,
+              "em": 1050
+            },
+            {
+              "name": "Nexor",
+              "start": "17:30",
+              "end": "18:15",
+              "id": "Bev85I1rRLC1TfsnZg62bg",
+              "host": false,
+              "sm": 1050,
+              "em": 1095
+            },
+            {
+              "name": "Resilience & Refold",
+              "start": "18:15",
+              "end": "19:00",
+              "id": "WGOJg8DwQ4GBCG350Yo8EQ",
+              "host": false,
+              "sm": 1095,
+              "em": 1140
+            },
+            {
+              "name": "Modesto",
+              "start": "19:00",
+              "end": "19:45",
+              "id": "VI0e7AiAQ3auOMZrl-9F-Q",
+              "host": false,
+              "sm": 1140,
+              "em": 1185
+            },
+            {
+              "name": "Harderclass Hardcore Contest",
+              "start": "19:45",
+              "end": "20:30",
+              "id": "E-UX09iQR9ysY6Doo8pP0g",
+              "host": false,
+              "sm": 1185,
+              "em": 1230
+            },
+            {
+              "name": "Rayzen",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "VLa6Cjb8R0ugxo7UmiLtMg",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "HETZKINEN",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "LP_v7tAlRgq7cgcEMcN1pQ",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Blue night",
+          "position": 20,
+          "color": "#0BDBEF",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Encore with Rebelion",
+              "start": "23:30",
+              "end": "01:00",
+              "id": "X7cZoLy0RTqZM6S3CeYLQQ",
+              "host": false,
+              "sm": 1410,
+              "em": 1500
+            }
+          ]
+        },
+        {
+          "name": "Magenta night (silent)",
+          "position": 21,
+          "color": "#FF008B",
+          "minor": true,
+          "acts": [
+            {
+              "name": "More Kords",
+              "start": "23:30",
+              "end": "00:15",
+              "id": "HQBNFzxFR1OXkrKWP-wy3A",
+              "host": false,
+              "sm": 1410,
+              "em": 1455
+            },
+            {
+              "name": "GINIA",
+              "start": "00:15",
+              "end": "01:00",
+              "id": "VR4Tf2W7Qay1Fz2ftYw83Q",
+              "host": false,
+              "sm": 1455,
+              "em": 1500
+            }
+          ]
+        },
+        {
+          "name": "Stampkroeg - larstig & gasdrop",
+          "position": 23,
+          "color": "#D65A46",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Onesie Brigade",
+              "start": "12:00",
+              "end": "12:30",
+              "id": "dUu_tq5lRhOxtvbTm1aN9Q",
+              "host": false,
+              "sm": 720,
+              "em": 750
+            },
+            {
+              "name": "Loud & Fout",
+              "start": "12:30",
+              "end": "13:00",
+              "id": "W1j22HBWQVG5XbxJo8l5lQ",
+              "host": false,
+              "sm": 750,
+              "em": 780
+            },
+            {
+              "name": "Coenfetti",
+              "start": "13:00",
+              "end": "13:30",
+              "id": "XriDIlDkQXKWkV2FNNB-qw",
+              "host": false,
+              "sm": 780,
+              "em": 810
+            },
+            {
+              "name": "FEESTNATION",
+              "start": "13:30",
+              "end": "14:15",
+              "id": "GPB9qF4dR-GMG3Aej9XrmA",
+              "host": false,
+              "sm": 810,
+              "em": 855
+            },
+            {
+              "name": "Otto Wunderbar",
+              "start": "14:15",
+              "end": "14:45",
+              "id": "QNPikuaWQIK6aGKt-d-ktg",
+              "host": false,
+              "sm": 855,
+              "em": 885
+            },
+            {
+              "name": "Sebastian Bronk",
+              "start": "14:45",
+              "end": "15:30",
+              "id": "TF_oT7PcRh-GfIiGqDJZTw",
+              "host": false,
+              "sm": 885,
+              "em": 930
+            },
+            {
+              "name": "Ransom x Plug 'N Play",
+              "start": "15:30",
+              "end": "16:30",
+              "id": "P-2zOwLbTf-yBl2I2c32BQ",
+              "host": false,
+              "sm": 930,
+              "em": 990
+            },
+            {
+              "name": "GladJakkers - Onmeuing Brekk'n",
+              "start": "16:30",
+              "end": "17:00",
+              "id": "ZX85Ni3pRR-1X0AHOsFySQ",
+              "host": false,
+              "sm": 990,
+              "em": 1020
+            },
+            {
+              "name": "Tony Star",
+              "start": "17:00",
+              "end": "17:45",
+              "id": "EbAZKqbYRKehCC-qp7Zb6g",
+              "host": false,
+              "sm": 1020,
+              "em": 1065
+            },
+            {
+              "name": "Essociaal",
+              "start": "17:45",
+              "end": "18:30",
+              "id": "ZgfR05YrRQK1ILtZBfdAdw",
+              "host": false,
+              "sm": 1065,
+              "em": 1110
+            },
+            {
+              "name": "A-Motion vs Jason Payne - Goldschool Mien Leem",
+              "start": "18:30",
+              "end": "19:30",
+              "id": "MKWcPXucTa2lQB0_xD0TzQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1170
+            },
+            {
+              "name": "LARSTIG & GASDROP X Feest Modulators",
+              "start": "19:30",
+              "end": "20:15",
+              "id": "bP938uFnRfOJO4YAdtZluA",
+              "host": false,
+              "sm": 1170,
+              "em": 1215
+            },
+            {
+              "name": "René le Blanc pres. Defqon.1 le Blanc",
+              "start": "20:15",
+              "end": "20:30",
+              "id": "dRGGy3TjTeWikiGHFhCO5A",
+              "host": false,
+              "sm": 1215,
+              "em": 1230
+            },
+            {
+              "name": "PURE CHAOS MET LARSTIG & GASDROP x BASS CHASERZ x DR. RUDE X HANS GLOCK X PATJOO",
+              "start": "20:30",
+              "end": "22:00",
+              "id": "THxCPN_UQxSraQ1gbRuUdQ",
+              "host": false,
+              "sm": 1230,
+              "em": 1320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-06-27",
+      "stages": [
+        {
+          "name": "Red",
+          "position": 2,
+          "color": "#FF0000",
+          "minor": false,
+          "acts": [
+            {
+              "name": "The Warming-up with Creeds & Geck-o",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "UZPY2kT_Rsqd_2rvvVx03w",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Warrior Workout",
+              "start": "12:00",
+              "end": "12:30",
+              "id": "CU5wBiGSQkqVxrurCHuk5g",
+              "host": false,
+              "sm": 720,
+              "em": 750
+            },
+            {
+              "name": "Serzo & D-Charged",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "LC2HyVTLRmmJbRxRP93_UA",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "Mark With A K & MC Chucky B2B Deepack",
+              "start": "13:30",
+              "end": "14:15",
+              "id": "LRWO-YTzR26HqAR4HQA1bQ",
+              "host": false,
+              "sm": 810,
+              "em": 855
+            },
+            {
+              "name": "Bioweapon",
+              "start": "14:15",
+              "end": "15:00",
+              "id": "eGVlVZsiRkaQvMTf5QteZg",
+              "host": false,
+              "sm": 855,
+              "em": 900
+            },
+            {
+              "name": "Galactixx",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "Vmv84FI2SnGOd5vzTB9A6A",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "POWER HOUR",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "ZYsoO6r9Q1eqvd-dI1vpbg",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Frontliner & Max Enforcer",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "G0pwlIoHS_uMvGPOBgdoaw",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Dual Damage & Mish",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "F5-WJDenR_aKATwTi6wvGQ",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Showtek",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "T1VIAEVVQfGKsdHWymrWEA",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Vertile",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "bE0XHqXyRT2sC8ZBWuyMqw",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Zatox & Mad Dog",
+              "start": "21:00",
+              "end": "21:45",
+              "id": "DoJirjHZQIKT-RdC_5PaKw",
+              "host": false,
+              "sm": 1260,
+              "em": 1305
+            },
+            {
+              "name": "D-Sturb",
+              "start": "21:45",
+              "end": "22:35",
+              "id": "DqIHLVgKTjq6FNCjTYIMBA",
+              "host": false,
+              "sm": 1305,
+              "em": 1355
+            },
+            {
+              "name": "The Endshow",
+              "start": "22:35",
+              "end": "23:00",
+              "id": "VfswzFyTTAGw_XEPpfMF3A",
+              "host": false,
+              "sm": 1355,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Blue",
+          "position": 3,
+          "color": "#0BDBEF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "ERABREAK & Level One",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "edBCPaqKTdq6-QNeu40Rjw",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Coldax & Damaxy",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "CmVHt_TJS56VQOw7WBGhTw",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Infliction & BMBERJCK",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "HfJeavtLRZWH9IOA1EqlHg",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Regain & Nightcraft: Forsaken Two",
+              "start": "14:00",
+              "end": "14:30",
+              "id": "Y1SyGqrtRDanlMMejz1Avw",
+              "host": false,
+              "sm": 840,
+              "em": 870
+            },
+            {
+              "name": "Anderex",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "S4MCbYXAREaCYNPzopTArw",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "Element & Vasto & The Smiler",
+              "start": "15:30",
+              "end": "17:00",
+              "id": "J4GmtPCWSdO79jfP7dr8eg",
+              "host": false,
+              "sm": 930,
+              "em": 1020
+            },
+            {
+              "name": "TOZA",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "NXXwgWxATfO93rOCKplBqA",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "The Purge & GRAVEDGR",
+              "start": "18:00",
+              "end": "18:45",
+              "id": "W2hfh1UqTnWvFhindk9WLQ",
+              "host": false,
+              "sm": 1080,
+              "em": 1125
+            },
+            {
+              "name": "Hard Driver",
+              "start": "18:45",
+              "end": "19:30",
+              "id": "RWG97I8kSNiTi9NSkwzZyA",
+              "host": false,
+              "sm": 1125,
+              "em": 1170
+            },
+            {
+              "name": "Act of Rage",
+              "start": "19:30",
+              "end": "20:15",
+              "id": "LR9eNylVRki9uABxzTtVIg",
+              "host": false,
+              "sm": 1170,
+              "em": 1215
+            },
+            {
+              "name": "Vexxed",
+              "start": "20:15",
+              "end": "20:45",
+              "id": "O7BVlZydSKGhjIBcZxke6w",
+              "host": false,
+              "sm": 1215,
+              "em": 1245
+            },
+            {
+              "name": "Riot Shift",
+              "start": "20:45",
+              "end": "21:30",
+              "id": "bEYM33o6RMWo1Q2_9waYmg",
+              "host": false,
+              "sm": 1245,
+              "em": 1290
+            },
+            {
+              "name": "Revelation LIVE",
+              "start": "21:30",
+              "end": "22:00",
+              "id": "RXNFVZS2S2aDkClzYNaodw",
+              "host": false,
+              "sm": 1290,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Black",
+          "position": 4,
+          "color": "#878787",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Karun & Gridkiller",
+              "start": "11:00",
+              "end": "12:15",
+              "id": "Y9DSyYQTSgW-MCVod5pPoA",
+              "host": false,
+              "sm": 660,
+              "em": 735
+            },
+            {
+              "name": "Sakyra",
+              "start": "12:15",
+              "end": "13:00",
+              "id": "CJfuMWWtTR6LK7N0VuciGg",
+              "host": false,
+              "sm": 735,
+              "em": 780
+            },
+            {
+              "name": "Billx",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "Km7VfOVwS1OeqPYZVBHI6A",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Yoshiko & Juliëx",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "eJ9J_LF8QfKwkNVl9u1aPw",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Neophyte",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "KGmhk-VITySSbUHzafRIHA",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Satirized",
+              "start": "17:15",
+              "end": "18:15",
+              "id": "dvh5aamXQYqmBepuYajWFQ",
+              "host": false,
+              "sm": 1035,
+              "em": 1095
+            },
+            {
+              "name": "Hardcore Italia: Mad Dog &  Art of Fighters & Noize Suppressor & Tommyknocker",
+              "start": "18:15",
+              "end": "19:15",
+              "id": "BH09B9HgSfawYZff2_lImg",
+              "host": false,
+              "sm": 1095,
+              "em": 1155
+            },
+            {
+              "name": "The Dope Doctor",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "RP_phFJMR3SH4eXgaJcxMQ",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            },
+            {
+              "name": "Lunakorpz",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "YewURviUSzitMmj6OvoBdw",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Barber & Unproven",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "QSedIbeETsyKlSqRJ6O98A",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            },
+            {
+              "name": "Lekkerfaces & Pinotello",
+              "start": "22:00",
+              "end": "23:00",
+              "id": "auGAggq8S3-gyROAEB47zg",
+              "host": false,
+              "sm": 1320,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "U.V.",
+          "position": 5,
+          "color": "#D492FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Synthsoldier",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "PxX2iovvTGO7Ymgq7W2I5Q",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "DÂVINØ",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "YzlCBGCkSdin9ooNXE5f5g",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "AVI8",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "HrEVCWRxRneFgZxU-SLMPg",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Digital Madness",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "Hsx-VLXtT0ChdrVU-OoIQA",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "KELTEK & Demi Kanon",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "JWqI1jCuQS-rdxzDh6-F6A",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Break by DL",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "BxKl7ETlSTO7nhAjcxdIWg",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Wasted Penguinz",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "RbvFRDrdTC6ly_01w8cNSw",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Ben Nicky presents Xtreme",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "FPQv0o9KR6-0oU3tEnKLtw",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Wildstylez",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "cuQPDo2PRJaaFjwkj-O6UA",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Primeshock",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "Qp448YPaTPO3ytV14GZhQw",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Adrenalize",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "cnYn_BP9R9Oo86Rkp02x3Q",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            },
+            {
+              "name": "DEEZL: AEON",
+              "start": "22:00",
+              "end": "22:30",
+              "id": "E_p2A7pHTTySrxU1nBgQlw",
+              "host": false,
+              "sm": 1320,
+              "em": 1350
+            }
+          ]
+        },
+        {
+          "name": "Magenta",
+          "position": 6,
+          "color": "#FF008B",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Clive King",
+              "start": "11:00",
+              "end": "12:30",
+              "id": "N7-Zsaa8TnuwjG0cLaWPLg",
+              "host": false,
+              "sm": 660,
+              "em": 750
+            },
+            {
+              "name": "The Beholder & Balistic",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "CoQGG0xvQ-KTFg5pqbUqDQ",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "JDX",
+              "start": "13:30",
+              "end": "14:30",
+              "id": "JiMXWdnYTKucw_EsYNRv7g",
+              "host": false,
+              "sm": 810,
+              "em": 870
+            },
+            {
+              "name": "Yoji Biomehanika & Scot Project",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "YyQf8AhyQ56ueZ2gd921IQ",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "Qlubtempo Parade: Luna, Pavo, DJ Pila",
+              "start": "15:30",
+              "end": "17:00",
+              "id": "EyhqooGjQX6uTf3KBIht_w",
+              "host": false,
+              "sm": 930,
+              "em": 1020
+            },
+            {
+              "name": "DJ Stephanie",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "aT8Im1fmQA2dGtzLMsQUug",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Davide Sonar",
+              "start": "18:00",
+              "end": "18:45",
+              "id": "Ad9xoAMjRbCzaMJ1Me54MQ",
+              "host": false,
+              "sm": 1080,
+              "em": 1125
+            },
+            {
+              "name": "Activator",
+              "start": "18:45",
+              "end": "19:30",
+              "id": "EDnimVD9RHONlJ-o0yTL4A",
+              "host": false,
+              "sm": 1125,
+              "em": 1170
+            },
+            {
+              "name": "Zany",
+              "start": "19:30",
+              "end": "20:30",
+              "id": "KFEc5vZ3S66keenHqbDK-w",
+              "host": false,
+              "sm": 1170,
+              "em": 1230
+            },
+            {
+              "name": "A-lusion",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "UIC9urcpSr2YZM278uJImA",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "Tatanka",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "V9mpOUrrTham_tC5hvd8lQ",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Indigo",
+          "position": 7,
+          "color": "#3842DA",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Viva La Fist with Adjuzt & The Straikerz ft. Synergy",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "QMOtAO5QRVKxwcQ_0jentA",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Spitfire",
+              "start": "12:00",
+              "end": "12:45",
+              "id": "CbH7TJp8Q1aSoZQcuVVGvg",
+              "host": false,
+              "sm": 720,
+              "em": 765
+            },
+            {
+              "name": "Spoontech Emergence Showcase by  NSIDE & STORAH",
+              "start": "12:45",
+              "end": "13:30",
+              "id": "NkJI-3DsR4WswB7WUGJWtQ",
+              "host": false,
+              "sm": 765,
+              "em": 810
+            },
+            {
+              "name": "Detailed",
+              "start": "13:30",
+              "end": "14:15",
+              "id": "JEiD1sjKQ6G1tO5jJQAiDg",
+              "host": false,
+              "sm": 810,
+              "em": 855
+            },
+            {
+              "name": "Sanctuary",
+              "start": "14:15",
+              "end": "15:00",
+              "id": "FV0E_xqhTSaNQOBbFUOjwQ",
+              "host": false,
+              "sm": 855,
+              "em": 900
+            },
+            {
+              "name": "Unload",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "Lh-b9RsuRqqHRrk8HootEQ",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Spectre",
+              "start": "16:30",
+              "end": "17:30",
+              "id": "JfwrQYKMTGeXiltm79qX5g",
+              "host": false,
+              "sm": 990,
+              "em": 1050
+            },
+            {
+              "name": "Onyx",
+              "start": "17:30",
+              "end": "18:15",
+              "id": "QTwAN2N4Tzyc_Dc6c2QnJA",
+              "host": false,
+              "sm": 1050,
+              "em": 1095
+            },
+            {
+              "name": "EZG",
+              "start": "18:15",
+              "end": "18:45",
+              "id": "VCHrTjn3QBS1FT9Y8MNVyw",
+              "host": false,
+              "sm": 1095,
+              "em": 1125
+            },
+            {
+              "name": "Sparkz",
+              "start": "18:45",
+              "end": "19:15",
+              "id": "AB8KmDlESCCtPSkV67DBhw",
+              "host": false,
+              "sm": 1125,
+              "em": 1155
+            },
+            {
+              "name": "Chapter V",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "aN4cZsjYT1KOF1r664WxuA",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            },
+            {
+              "name": "Unique",
+              "start": "20:00",
+              "end": "20:45",
+              "id": "ajLe04MNS_WJ7K_ArGgA1w",
+              "host": false,
+              "sm": 1200,
+              "em": 1245
+            },
+            {
+              "name": "Dark Entities",
+              "start": "20:45",
+              "end": "21:30",
+              "id": "HyN7luHeS2mTC8FtJiQVGA",
+              "host": false,
+              "sm": 1245,
+              "em": 1290
+            },
+            {
+              "name": "Spoontechnicians",
+              "start": "21:30",
+              "end": "23:00",
+              "id": "YcK4f4Y0SOi2SeAy7tJ3-Q",
+              "host": false,
+              "sm": 1290,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Yellow",
+          "position": 9,
+          "color": "#F1E300",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Screecher & Deviation",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "SRHfAFDeRmC0ZLNYn09vZw",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "D-Frek & Maissouille",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "Al7uG5KgSPiNR0Ixr2yxBA",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Revellers",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "SiR_ufImTnG-U975OosoFQ",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Levenkhan",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "I5zo2-kTT42YXNxe3LNgsg",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Dr.Z",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "a8XcsI3ITGaoHn8IL3zSvQ",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Aalst",
+              "start": "16:00",
+              "end": "16:45",
+              "id": "KjTDOmU_Qzqy024vszqGxQ",
+              "host": false,
+              "sm": 960,
+              "em": 1005
+            },
+            {
+              "name": "Missy & Dimma",
+              "start": "16:45",
+              "end": "17:30",
+              "id": "SgSqUqhHQP6EJa4_NmWPSg",
+              "host": false,
+              "sm": 1005,
+              "em": 1050
+            },
+            {
+              "name": "Jur Terreur pres. Rave Nation LIVE",
+              "start": "17:30",
+              "end": "18:00",
+              "id": "Oy4fiMVaReWQ0F9fRJ9lxw",
+              "host": false,
+              "sm": 1050,
+              "em": 1080
+            },
+            {
+              "name": "Equal2",
+              "start": "18:00",
+              "end": "18:30",
+              "id": "MaAZDVA2TWaTJ0WONwFg8w",
+              "host": false,
+              "sm": 1080,
+              "em": 1110
+            },
+            {
+              "name": "Invaderz",
+              "start": "18:30",
+              "end": "19:00",
+              "id": "b-S8HU-sQc2eke5NDY3XeQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1140
+            },
+            {
+              "name": "Spitnoise - Bounce of Steel",
+              "start": "19:00",
+              "end": "19:30",
+              "id": "T89EXOH6RN2AEE14-YqTWQ",
+              "host": false,
+              "sm": 1140,
+              "em": 1170
+            },
+            {
+              "name": "Ditzkickz",
+              "start": "19:30",
+              "end": "20:30",
+              "id": "YsjdPLCkRZ2Vjebjxh08IA",
+              "host": false,
+              "sm": 1170,
+              "em": 1230
+            },
+            {
+              "name": "Tukkertempo pres. Kick Therapy LIVE",
+              "start": "20:30",
+              "end": "21:00",
+              "id": "bhchFIfmRMWCWdfbJ_Z7BA",
+              "host": false,
+              "sm": 1230,
+              "em": 1260
+            },
+            {
+              "name": "DRS & The Herbalist",
+              "start": "21:00",
+              "end": "21:45",
+              "id": "HRS30XItRsOlIYmiOwTAWQ",
+              "host": false,
+              "sm": 1260,
+              "em": 1305
+            },
+            {
+              "name": "Akimbo",
+              "start": "21:45",
+              "end": "22:30",
+              "id": "FLLbFXrZQ7ONoA4XR5tfkg",
+              "host": false,
+              "sm": 1305,
+              "em": 1350
+            }
+          ]
+        },
+        {
+          "name": "Gold",
+          "position": 10,
+          "color": "#BB9551",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Artcore with Ruffneck",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "f8UK374-RcqjOWE0isB2_A",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Franky Jones",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "ZkworiR9Spi_UVo3AG4Aag",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Buzz Fuzz & Gizmo",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "JhNpJOf5TU6QE97S_oLjkQ",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "T-GO & TO-B",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "Scp30GYxT_yCNj3lwuz7Fw",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "The Masochist",
+              "start": "15:00",
+              "end": "16:15",
+              "id": "U3ENyovNSyKTvg11VAe6FQ",
+              "host": false,
+              "sm": 900,
+              "em": 975
+            },
+            {
+              "name": "DJ J.D.A.",
+              "start": "16:15",
+              "end": "17:15",
+              "id": "X1i_3E5bTmiKnipJm1BZ7Q",
+              "host": false,
+              "sm": 975,
+              "em": 1035
+            },
+            {
+              "name": "G-Town Madness",
+              "start": "17:15",
+              "end": "18:00",
+              "id": "VhS6BIWCTWGD7cNT3LpZFg",
+              "host": false,
+              "sm": 1035,
+              "em": 1080
+            },
+            {
+              "name": "Ruffneck & Ophidian",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "YOqJAzgYQGqs3kuR-YXixg",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Vandal!sm & Rob Gee",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "J6VShlnmSoyXZECiFLvqvQ",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Nosferatu",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "R4BVLKvtQmmbLXNiseARzA",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Unexist",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "F-cYC56GTbeT9sxEt_9_wg",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Purple",
+          "position": 13,
+          "color": "#A100FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Phandelic",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "QaScr6svSKiapH4-Q1lS0Q",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Kaki",
+              "start": "12:00",
+              "end": "12:45",
+              "id": "I43ZjLFTTT2KCIqBGo6_Tg",
+              "host": false,
+              "sm": 720,
+              "em": 765
+            },
+            {
+              "name": "RED Race #3",
+              "start": "12:45",
+              "end": "13:30",
+              "id": "dl1UpD8XSTeOrQJhAKHvBA",
+              "host": false,
+              "sm": 765,
+              "em": 810
+            },
+            {
+              "name": "Harder Class Hardstyle Contest",
+              "start": "13:30",
+              "end": "14:15",
+              "id": "TWSEW51QTna6Kf4sLJsbsA",
+              "host": false,
+              "sm": 810,
+              "em": 855
+            },
+            {
+              "name": "Harde Kwark",
+              "start": "14:15",
+              "end": "15:00",
+              "id": "AnLx9putSiON3IRrXGEzvQ",
+              "host": false,
+              "sm": 855,
+              "em": 900
+            },
+            {
+              "name": "Xriminals",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "MHpLnP_QRwGz-Q3lXoElHw",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Earsquaker",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "V11c6p1eR9aSkV4ae7XoGw",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Strikeblood",
+              "start": "17:00",
+              "end": "17:45",
+              "id": "aVuqhhxmS92k679NP_iXtg",
+              "host": false,
+              "sm": 1020,
+              "em": 1065
+            },
+            {
+              "name": "Incult",
+              "start": "17:45",
+              "end": "18:30",
+              "id": "XDTYpRHpRV2RID2IL-WtEQ",
+              "host": false,
+              "sm": 1065,
+              "em": 1110
+            },
+            {
+              "name": "Inner Circle Showcase: Xense, Re-Pulze & Wiqtory",
+              "start": "18:30",
+              "end": "20:00",
+              "id": "J_OTYbw8Q3mI22wyijO9TQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1200
+            },
+            {
+              "name": "Twintigerz",
+              "start": "20:00",
+              "end": "20:30",
+              "id": "Ue83b5VYSImnpZihMQX3kg",
+              "host": false,
+              "sm": 1200,
+              "em": 1230
+            },
+            {
+              "name": "D-Venn",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "EdIAdQ9jQqmtpml9iTz4jg",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "Flout Mania",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "QclOEKO-TomJhRrjSucYRg",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Silver",
+          "position": 14,
+          "color": "#DADADA",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Folie à Deux",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "J_sdbDcJQAGN2iiHsEMG9Q",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Chaos Project & Furyan",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "ZoI517huQYyVlfTIcumZgQ",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Enzyme X",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "SKdjT57dQmCyqzOVARX3Pg",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Krista Bourgeois LIVE",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "THpr765vR6W0xEjc-WA0Cw",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Stormtrooper",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "f78IDz1nS7KE8Q-AXrwVkw",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Sandy Warez vs Todiefor",
+              "start": "16:00",
+              "end": "17:15",
+              "id": "FDXjp5WTTHi2qXJGeVb8dg",
+              "host": false,
+              "sm": 960,
+              "em": 1035
+            },
+            {
+              "name": "The Outside Agency",
+              "start": "17:15",
+              "end": "18:15",
+              "id": "bEAmsvHQTVy3ToQeEjIp1w",
+              "host": false,
+              "sm": 1035,
+              "em": 1095
+            },
+            {
+              "name": "N-Vitral - Industrial Rave",
+              "start": "18:15",
+              "end": "19:00",
+              "id": "R-YXqeTmTSGrrxYks5Y7pg",
+              "host": false,
+              "sm": 1095,
+              "em": 1140
+            },
+            {
+              "name": "Dither",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "QSnRqokLSsmXuZAEAQY0kA",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Dolphin & The DJ Producer",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "E90kAVDuRzihiQZ7qzFYtw",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Noisekick",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "Srr7ausdQneRyEI6qG0L6w",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Blue night",
+          "position": 20,
+          "color": "#0BDBEF",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Encore with Phuture Noize",
+              "start": "23:30",
+              "end": "01:00",
+              "id": "MKwwTN-3R1ahpu2xscB4eA",
+              "host": false,
+              "sm": 1410,
+              "em": 1500
+            }
+          ]
+        },
+        {
+          "name": "Magenta night (silent)",
+          "position": 21,
+          "color": "#FF008B",
+          "minor": true,
+          "acts": [
+            {
+              "name": "DAANI",
+              "start": "23:30",
+              "end": "00:15",
+              "id": "BOoJAUn0SLKGu3K0AeKyNQ",
+              "host": false,
+              "sm": 1410,
+              "em": 1455
+            },
+            {
+              "name": "Galactixx",
+              "start": "00:15",
+              "end": "01:00",
+              "id": "IOvM5kPyQ-OULyFSI82UlQ",
+              "host": false,
+              "sm": 1455,
+              "em": 1500
+            }
+          ]
+        },
+        {
+          "name": "Stampkroeg - dikke baap",
+          "position": 24,
+          "color": "#D65A46",
+          "minor": true,
+          "acts": [
+            {
+              "name": "K̶Y̶ØN̶",
+              "start": "12:00",
+              "end": "12:30",
+              "id": "LfSEEdj9TgafEd5Ewmw4cg",
+              "host": false,
+              "sm": 720,
+              "em": 750
+            },
+            {
+              "name": "Vroeg Pieken met Outsiders",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "USISHwCMQ-q1EN_bH09D2A",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "Gezellige Uptempo b2b DIKKE BAAP presents Gezellige Baap",
+              "start": "13:30",
+              "end": "14:00",
+              "id": "TN7HBE7_Q_Skb_xDgQWyMA",
+              "host": false,
+              "sm": 810,
+              "em": 840
+            },
+            {
+              "name": "PIOLINI b2b DIKKE BAAP - Bounce set",
+              "start": "14:00",
+              "end": "14:30",
+              "id": "MULVItH-QzCG0_Xs52zBnQ",
+              "host": false,
+              "sm": 840,
+              "em": 870
+            },
+            {
+              "name": "Stanima",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "ewAevpMbSDudNrCkpLrK-A",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "Harde Kwark",
+              "start": "15:30",
+              "end": "16:00",
+              "id": "Dg3tb4ZFRRGxZaVj8SGnWQ",
+              "host": false,
+              "sm": 930,
+              "em": 960
+            },
+            {
+              "name": "Dutch Hour b2b Triangler",
+              "start": "16:00",
+              "end": "16:30",
+              "id": "YQjFnQj3Sm-tUm72smJC7A",
+              "host": false,
+              "sm": 960,
+              "em": 990
+            },
+            {
+              "name": "Nelly Is Not My Name b2b K̶Y̶ØN̶",
+              "start": "16:30",
+              "end": "17:15",
+              "id": "PO0J32siSDOZ2Pdt8JXEPQ",
+              "host": false,
+              "sm": 990,
+              "em": 1035
+            },
+            {
+              "name": "Dr Donk pres. Zaagstep",
+              "start": "17:15",
+              "end": "17:45",
+              "id": "HA1YTTykQhCtDISpRXkHeg",
+              "host": false,
+              "sm": 1035,
+              "em": 1065
+            },
+            {
+              "name": "Chapter V",
+              "start": "17:45",
+              "end": "18:15",
+              "id": "bOtPifOSTVWtkoBUjx-1hg",
+              "host": false,
+              "sm": 1065,
+              "em": 1095
+            },
+            {
+              "name": "Luke F*cking Madness",
+              "start": "18:15",
+              "end": "18:45",
+              "id": "ERLtcVAxSvem0gtOvSzrtQ",
+              "host": false,
+              "sm": 1095,
+              "em": 1125
+            },
+            {
+              "name": "Adjuzt & SKG presents: Eem 'n uurtje Eierbal'n Bak'n",
+              "start": "18:45",
+              "end": "19:30",
+              "id": "ZG8jILjDRWmGvOIgjhzguA",
+              "host": false,
+              "sm": 1125,
+              "em": 1170
+            },
+            {
+              "name": "The Smiler - reverse bass set",
+              "start": "19:30",
+              "end": "20:00",
+              "id": "P4-gueFHSnOVFZ_OJPttzw",
+              "host": false,
+              "sm": 1170,
+              "em": 1200
+            },
+            {
+              "name": "Chaos Project & DIKKE BAAP",
+              "start": "20:00",
+              "end": "20:45",
+              "id": "fyqvIWFOR96-g-_lHkKkcA",
+              "host": false,
+              "sm": 1200,
+              "em": 1245
+            },
+            {
+              "name": "EZG",
+              "start": "20:45",
+              "end": "21:15",
+              "id": "ZcmDr_p5Qp-7X65zjXnsjA",
+              "host": false,
+              "sm": 1245,
+              "em": 1275
+            },
+            {
+              "name": "HET POMPSTATION",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "LCrGIRlqRaia7pb_hubvbw",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "date": "2026-06-28",
+      "stages": [
+        {
+          "name": "The Closing Ceremony",
+          "position": 1,
+          "color": "#FF0000",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Defqon.1 Legends",
+              "start": "18:00",
+              "end": "21:30",
+              "id": "P_rFiMagShujviscuMAEpA",
+              "host": false,
+              "sm": 1080,
+              "em": 1290
+            },
+            {
+              "name": "Gunz For Hire - XV The Underground Kings",
+              "start": "21:30",
+              "end": "22:00",
+              "id": "AjEY0QF6S3WTOZXyLKqcLA",
+              "host": false,
+              "sm": 1290,
+              "em": 1320
+            },
+            {
+              "name": "4444 of a Kind",
+              "start": "22:00",
+              "end": "22:45",
+              "id": "Hsy7IFJnQ76eAoWPy_F9BA",
+              "host": false,
+              "sm": 1320,
+              "em": 1365
+            },
+            {
+              "name": "The Closing Ritual",
+              "start": "22:45",
+              "end": "23:00",
+              "id": "C7K941-2RQSei02qazd-ug",
+              "host": false,
+              "sm": 1365,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Red",
+          "position": 2,
+          "color": "#FF0000",
+          "minor": false,
+          "acts": [
+            {
+              "name": "GPF presents: ERROR_404: NORMAL MUSIC NOT FOUND",
+              "start": "16:00",
+              "end": "16:30",
+              "id": "J4pWWFtDSpSLejoiQQ_cYg",
+              "host": false,
+              "sm": 960,
+              "em": 990
+            }
+          ]
+        },
+        {
+          "name": "Blue",
+          "position": 3,
+          "color": "#0BDBEF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Zelecter",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "HPRyBxG9TjuoS7CASlBMTw",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Rooler - 3 hour set",
+              "start": "12:00",
+              "end": "15:00",
+              "id": "YH59l3vBQWmCBnqQvrv70Q",
+              "host": false,
+              "sm": 720,
+              "em": 900
+            },
+            {
+              "name": "B-Front",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "Ala_ae4hQ1GuhtNhQFmKTQ",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Warface",
+              "start": "16:00",
+              "end": "16:45",
+              "id": "agth6J8jT5WvZqgT5X4PwQ",
+              "host": false,
+              "sm": 960,
+              "em": 1005
+            },
+            {
+              "name": "Vertile: Everything Changes LIVE",
+              "start": "16:45",
+              "end": "17:30",
+              "id": "BgRcbiepTTGuK18WqWRetw",
+              "host": false,
+              "sm": 1005,
+              "em": 1050
+            },
+            {
+              "name": "Adjuzt",
+              "start": "17:30",
+              "end": "18:30",
+              "id": "D_aatfnjSbyOuFwvwUzCHQ",
+              "host": false,
+              "sm": 1050,
+              "em": 1110
+            },
+            {
+              "name": "Chapter V & DIKKE BAAP",
+              "start": "18:30",
+              "end": "19:30",
+              "id": "XFdFfsTlR76M5Xzq9p-9OQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1170
+            },
+            {
+              "name": "Kruelty",
+              "start": "19:30",
+              "end": "20:30",
+              "id": "a__pkIPdQauhAgRFD6DuVw",
+              "host": false,
+              "sm": 1170,
+              "em": 1230
+            },
+            {
+              "name": "Krowdexx",
+              "start": "20:30",
+              "end": "21:15",
+              "id": "MyNaAVQiSKyYEh_FmfSybQ",
+              "host": false,
+              "sm": 1230,
+              "em": 1275
+            },
+            {
+              "name": "So Juice & Fraw & Exproz",
+              "start": "21:15",
+              "end": "22:00",
+              "id": "G9xa25M5SOqV-Oubd8FHBg",
+              "host": false,
+              "sm": 1275,
+              "em": 1320
+            }
+          ]
+        },
+        {
+          "name": "Black",
+          "position": 4,
+          "color": "#878787",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Open Airbed Concert with Hardstyle Pianist",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "bJpXeK1IQjeK3Qq_3HKymg",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "The Viper & Mad-E-Fact",
+              "start": "12:00",
+              "end": "13:30",
+              "id": "HoIcyq_-TOeTYnUMyAsi1g",
+              "host": false,
+              "sm": 720,
+              "em": 810
+            },
+            {
+              "name": "Promo",
+              "start": "13:30",
+              "end": "14:30",
+              "id": "FwrFk_aUR5S182U5OX3LvA",
+              "host": false,
+              "sm": 810,
+              "em": 870
+            },
+            {
+              "name": "Endymion",
+              "start": "14:30",
+              "end": "15:15",
+              "id": "Vc29CD3JRf6HYk8-NFHu4w",
+              "host": false,
+              "sm": 870,
+              "em": 915
+            },
+            {
+              "name": "Korsakoff",
+              "start": "15:15",
+              "end": "16:15",
+              "id": "AZ3bJqgERb-9ZvrpsIVSNQ",
+              "host": false,
+              "sm": 915,
+              "em": 975
+            },
+            {
+              "name": "Nosferatu & D-Fence",
+              "start": "16:15",
+              "end": "17:15",
+              "id": "FR3mOySNQ06wwMQ_DI22OA",
+              "host": false,
+              "sm": 975,
+              "em": 1035
+            },
+            {
+              "name": "Charly Lownoise & Mental Theo",
+              "start": "17:15",
+              "end": "18:00",
+              "id": "ZB3FI_9TQpe3NE00pqM0fg",
+              "host": false,
+              "sm": 1035,
+              "em": 1080
+            },
+            {
+              "name": "Major Conspiracy pres. Uptemparty LIVE",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "ESTXYKQFQvuzr0yUh4kNiw",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Dimitri K & Deadly Guns",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "ctRfqocbRAeyQCcQsbrJJQ",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            },
+            {
+              "name": "Lil Texas & Dr Donk",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "GJhBKZRxRye2Feiz0Ga_Aw",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            }
+          ]
+        },
+        {
+          "name": "U.V.",
+          "position": 5,
+          "color": "#D492FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "GLDY LX & Da Syndrome",
+              "start": "11:00",
+              "end": "12:30",
+              "id": "AbYAsp0ITgmsfkYzQICEwQ",
+              "host": false,
+              "sm": 660,
+              "em": 750
+            },
+            {
+              "name": "Leprince \"Big Sing a Long\"",
+              "start": "12:30",
+              "end": "13:30",
+              "id": "PEzVfSD2TWmXi34cW7YBnQ",
+              "host": false,
+              "sm": 750,
+              "em": 810
+            },
+            {
+              "name": "Pat B vs Dark-E",
+              "start": "13:30",
+              "end": "14:30",
+              "id": "ElCRksMBSGyXKmH-4pmfew",
+              "host": false,
+              "sm": 810,
+              "em": 870
+            },
+            {
+              "name": "Lost Identity & Teknoclash",
+              "start": "14:30",
+              "end": "15:30",
+              "id": "Ar2dbw1ySPGdPjHRICDPEw",
+              "host": false,
+              "sm": 870,
+              "em": 930
+            },
+            {
+              "name": "LARSTIG & GASDROP & Bass Chaserz & De Kraaien",
+              "start": "15:30",
+              "end": "17:00",
+              "id": "U_FwVaLES2i2KNhM9M6Dhg",
+              "host": false,
+              "sm": 930,
+              "em": 1020
+            },
+            {
+              "name": "The Darkraver ft. The Most Obvious Mystery Guest",
+              "start": "17:00",
+              "end": "18:30",
+              "id": "LKRrEuPtSFOJYlkpxmwZWA",
+              "host": false,
+              "sm": 1020,
+              "em": 1110
+            },
+            {
+              "name": "Ruthless, Dr. Rude & Hans Glock",
+              "start": "18:30",
+              "end": "20:00",
+              "id": "BZNm3CckRze_xGvvgD0WXQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1200
+            },
+            {
+              "name": "LNY TNZ x Jebroer",
+              "start": "20:00",
+              "end": "21:00",
+              "id": "LbrE-6-aR2WBAm3fNJ7E2Q",
+              "host": false,
+              "sm": 1200,
+              "em": 1260
+            },
+            {
+              "name": "Paul Elstak",
+              "start": "21:00",
+              "end": "22:00",
+              "id": "XFoPMpv4T-qoIWw1V5Zw1g",
+              "host": false,
+              "sm": 1260,
+              "em": 1320
+            },
+            {
+              "name": "Unicorn on K & Opgekonkerd presents Rainbow Colors",
+              "start": "22:00",
+              "end": "22:30",
+              "id": "Tp23sbpXQSqWB7jMQZKWBA",
+              "host": false,
+              "sm": 1320,
+              "em": 1350
+            },
+            {
+              "name": "Unicorn on K",
+              "start": "22:30",
+              "end": "23:00",
+              "id": "Pb8au2sDQEW03i4BXvXkMQ",
+              "host": false,
+              "sm": 1350,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Magenta",
+          "position": 6,
+          "color": "#FF008B",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Omegatypez",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "XmZ8nwxZSvqs7XCt1CPaTQ",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Cyber",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "JR7YJdgxQJ2GJmb8Dxu3Gw",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "The Pitcher & Slim Shore present This is who we are!",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "KpdOltx0QLG4b2_988RVtA",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Bass Modulators",
+              "start": "14:00",
+              "end": "14:45",
+              "id": "FzfBDvamTx-JZvEA32tNyw",
+              "host": false,
+              "sm": 840,
+              "em": 885
+            },
+            {
+              "name": "Low-E, Alter Egosz & Alphaverb",
+              "start": "14:45",
+              "end": "15:45",
+              "id": "GgXkDnLPQFOSROI17_ie6g",
+              "host": false,
+              "sm": 885,
+              "em": 945
+            },
+            {
+              "name": "Wildstylez - Back 2 Basics",
+              "start": "15:45",
+              "end": "16:45",
+              "id": "Ogd_RLI_T2-j9PfUpW1NsQ",
+              "host": false,
+              "sm": 945,
+              "em": 1005
+            },
+            {
+              "name": "Audiotricz LIVE",
+              "start": "16:45",
+              "end": "17:15",
+              "id": "L7D4HXmkSAGTiTs8psxkeg",
+              "host": false,
+              "sm": 1005,
+              "em": 1035
+            },
+            {
+              "name": "Psyko Punkz",
+              "start": "17:15",
+              "end": "18:00",
+              "id": "ErnawXf_TbqXgubO4OvRgg",
+              "host": false,
+              "sm": 1035,
+              "em": 1080
+            },
+            {
+              "name": "Josh & Wesz",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "Q3u29PfZTM27XWTPEk1H_Q",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            }
+          ]
+        },
+        {
+          "name": "Green",
+          "position": 8,
+          "color": "#00FF00",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Niotech",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "Ie2xJfs-SniuZ5CSC-OKMg",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Catalyst",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "GKoy7RjRTyGuiKUvglZc4g",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Junkie Kid",
+              "start": "14:00",
+              "end": "15:30",
+              "id": "H3JdBblSSIqEgpIaQ7fMmQ",
+              "host": false,
+              "sm": 840,
+              "em": 930
+            },
+            {
+              "name": "Zapravka",
+              "start": "15:30",
+              "end": "16:45",
+              "id": "WEvEJGGATZu8-FLY6e_lsQ",
+              "host": false,
+              "sm": 930,
+              "em": 1005
+            },
+            {
+              "name": "Restricted",
+              "start": "16:45",
+              "end": "17:45",
+              "id": "DAJXLOf1RJirHesnmIWqfQ",
+              "host": false,
+              "sm": 1005,
+              "em": 1065
+            },
+            {
+              "name": "Vortek's",
+              "start": "17:45",
+              "end": "19:00",
+              "id": "ACcUnlU1Rm2i51AVCpgaHA",
+              "host": false,
+              "sm": 1065,
+              "em": 1140
+            },
+            {
+              "name": "Cynthia Spiering",
+              "start": "19:00",
+              "end": "20:30",
+              "id": "KAof9nfFSCynMyuVRgIS3w",
+              "host": false,
+              "sm": 1140,
+              "em": 1230
+            },
+            {
+              "name": "Samuel Moriero",
+              "start": "20:30",
+              "end": "21:45",
+              "id": "GSr5DL5ZQBa5DJxfxGdQLw",
+              "host": false,
+              "sm": 1230,
+              "em": 1305
+            },
+            {
+              "name": "elMefti",
+              "start": "21:45",
+              "end": "23:00",
+              "id": "YQJTMdlUR-Sk7BQHayb2ag",
+              "host": false,
+              "sm": 1305,
+              "em": 1380
+            }
+          ]
+        },
+        {
+          "name": "Yellow",
+          "position": 9,
+          "color": "#F1E300",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Don't eat the Yellow snow with Gezellige Uptempo & Partyraiser",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "f7Zs1qFaR2Crov_Ne85bgg",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Guizcore",
+              "start": "12:00",
+              "end": "12:45",
+              "id": "atJ4R7xKSkay_M45eU19BA",
+              "host": false,
+              "sm": 720,
+              "em": 765
+            },
+            {
+              "name": "Unlocked - Last set ever",
+              "start": "12:45",
+              "end": "13:30",
+              "id": "Y7Jv6lpGRpCRB6-Y6Sms9w",
+              "host": false,
+              "sm": 765,
+              "em": 810
+            },
+            {
+              "name": "S-Kill",
+              "start": "13:30",
+              "end": "14:30",
+              "id": "F1J0tpoQT5qhdxtuxOCsrA",
+              "host": false,
+              "sm": 810,
+              "em": 870
+            },
+            {
+              "name": "Eraized",
+              "start": "14:30",
+              "end": "15:15",
+              "id": "N6lZ16RnRI6WRHB3Ftf3eA",
+              "host": false,
+              "sm": 870,
+              "em": 915
+            },
+            {
+              "name": "Amigo - Uptempo Fiesta",
+              "start": "15:15",
+              "end": "16:00",
+              "id": "YNljsiW-RgGthytqMnsxhg",
+              "host": false,
+              "sm": 915,
+              "em": 960
+            },
+            {
+              "name": "Saw the day in half with More Kords",
+              "start": "16:00",
+              "end": "16:15",
+              "id": "dSeDvYAyTPyPYxxRSbFGlA",
+              "host": false,
+              "sm": 960,
+              "em": 975
+            },
+            {
+              "name": "Abaddon pure domination ft. MC Reckless",
+              "start": "16:15",
+              "end": "16:45",
+              "id": "dilaCtIaQDOUFBJoGiRE8A",
+              "host": false,
+              "sm": 975,
+              "em": 1005
+            },
+            {
+              "name": "Kili",
+              "start": "16:45",
+              "end": "17:30",
+              "id": "AjWL1d7HQYy5EZWm7oDLDg",
+              "host": false,
+              "sm": 1005,
+              "em": 1050
+            },
+            {
+              "name": "Roosterz",
+              "start": "17:30",
+              "end": "18:00",
+              "id": "UkTQ_m9JTl-7WASW3mnRlQ",
+              "host": false,
+              "sm": 1050,
+              "em": 1080
+            },
+            {
+              "name": "Revealer",
+              "start": "18:00",
+              "end": "18:30",
+              "id": "dlxvqCo6SxC3Y0oDjZ55Eg",
+              "host": false,
+              "sm": 1080,
+              "em": 1110
+            },
+            {
+              "name": "Soulblast",
+              "start": "18:30",
+              "end": "19:15",
+              "id": "NfJcscUDTFWJjB17pYdf8g",
+              "host": false,
+              "sm": 1110,
+              "em": 1155
+            },
+            {
+              "name": "Chaotic Hostility",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "fHUYWmf4Sx-h6K3cYeU0DQ",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            }
+          ]
+        },
+        {
+          "name": "Gold",
+          "position": 10,
+          "color": "#BB9551",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Sunny D",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "ID2YxVhTSQCi2hYZ6-SzyA",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Critical Mass",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "DeI8BxZTRmusy3oLyqcWUQ",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Ode to Bass-D",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "HhGQmXHMQnaVPrUOHCalrQ",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Potato & DJ Francois",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "drwMUiqlQBa2Di1N4Begig",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Tha Playah",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "QN4OivngRoiQm8eVzUD8zg",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Panic & Exertion",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "D7bbRQKnQmG5n2JvBk5RbA",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Catscan",
+              "start": "17:00",
+              "end": "17:45",
+              "id": "a0lhppMFRU2qiBo96Sjk8A",
+              "host": false,
+              "sm": 1020,
+              "em": 1065
+            },
+            {
+              "name": "Art of Fighters",
+              "start": "17:45",
+              "end": "18:30",
+              "id": "TmbI5yyKR9SWJlt--dSMUw",
+              "host": false,
+              "sm": 1065,
+              "em": 1110
+            },
+            {
+              "name": "Reeza & Juno B - House of Madness",
+              "start": "18:30",
+              "end": "19:15",
+              "id": "Bmu_F3_wTC6dKCxay5bMuQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1155
+            },
+            {
+              "name": "Steve-D",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "IIhrfW94TrWOP2SCloLY-w",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            }
+          ]
+        },
+        {
+          "name": "Pink",
+          "position": 12,
+          "color": "#EF81A0",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Fight Switch",
+              "start": "11:00",
+              "end": "12:00",
+              "id": "H5xf2jIEQf2rBL5pTme1Ww",
+              "host": false,
+              "sm": 660,
+              "em": 720
+            },
+            {
+              "name": "Sins of Pandora",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "Bu16ZMVzTYinz-aeFthbBQ",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Rataplan",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "IgEQfq6TTxS61PY7LNxmBA",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Tantron",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "Nq7dr5LsQbK5st3FM-0Mhw",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Wes S & $avvy",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "JDKkLeZgT0Wq2QxpQIPoWw",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "NCT",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "Uf6AGYHjSXCPbpb9PqEiNw",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "T & Sugah",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "DWi1X3EoSnaZs-I4hoi85g",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Murdock",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "WHxoEUrXRT6z3lfOFEceYw",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "Redpill",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "DSbE92k9TPyWI_jcHqh_nA",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            }
+          ]
+        },
+        {
+          "name": "Purple",
+          "position": 13,
+          "color": "#A100FF",
+          "minor": false,
+          "acts": [
+            {
+              "name": "Dirty Lil Monkeyz",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "LZw2DcV8SZGZyKOEjD1bHw",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Insuspect & MC Primax",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "ZUNL9RygShOy6PyLfgpZSA",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Stugats",
+              "start": "14:00",
+              "end": "14:45",
+              "id": "Wv0wI0s2RNuUBABM0C8Q4Q",
+              "host": false,
+              "sm": 840,
+              "em": 885
+            },
+            {
+              "name": "Resensed",
+              "start": "14:45",
+              "end": "15:30",
+              "id": "WuUTlLq_S22f-fouFqKYzA",
+              "host": false,
+              "sm": 885,
+              "em": 930
+            },
+            {
+              "name": "KidEast",
+              "start": "15:30",
+              "end": "16:15",
+              "id": "AFCnELn_SQKAe1dxh5j6LQ",
+              "host": false,
+              "sm": 930,
+              "em": 975
+            },
+            {
+              "name": "Josha",
+              "start": "16:15",
+              "end": "17:00",
+              "id": "Pa79bvkbRf-u_img-p2H3g",
+              "host": false,
+              "sm": 975,
+              "em": 1020
+            },
+            {
+              "name": "Miss Isa",
+              "start": "17:00",
+              "end": "17:45",
+              "id": "ZiNi17K-RNWmqLIEsJlUUA",
+              "host": false,
+              "sm": 1020,
+              "em": 1065
+            },
+            {
+              "name": "Aranxa",
+              "start": "17:45",
+              "end": "18:30",
+              "id": "Ion3GBH_QLubbiEnxX-DZQ",
+              "host": false,
+              "sm": 1065,
+              "em": 1110
+            },
+            {
+              "name": "MT",
+              "start": "18:30",
+              "end": "19:15",
+              "id": "Ufd8BQZbQW-FdIM6Hz_5UQ",
+              "host": false,
+              "sm": 1110,
+              "em": 1155
+            },
+            {
+              "name": "Svenergy",
+              "start": "19:15",
+              "end": "20:00",
+              "id": "OS7yZyvXQWCrMWxlmC98dg",
+              "host": false,
+              "sm": 1155,
+              "em": 1200
+            }
+          ]
+        },
+        {
+          "name": "Stampkroeg - bassbrain",
+          "position": 25,
+          "color": "#D65A46",
+          "minor": true,
+          "acts": [
+            {
+              "name": "Hardstyle Gekkenhuis LIVE podcast",
+              "start": "11:00",
+              "end": "11:30",
+              "id": "MMr957Z-SXqvDqDeU6_Ebg",
+              "host": false,
+              "sm": 660,
+              "em": 690
+            },
+            {
+              "name": "Bassbrain: Morning Workout",
+              "start": "11:30",
+              "end": "12:00",
+              "id": "A1wsgf2yQQ26rFYHnrQaoA",
+              "host": false,
+              "sm": 690,
+              "em": 720
+            },
+            {
+              "name": "Pie Star x Cyndi",
+              "start": "12:00",
+              "end": "13:00",
+              "id": "Stx6pxXmQl2Te_PeTAc9ig",
+              "host": false,
+              "sm": 720,
+              "em": 780
+            },
+            {
+              "name": "Bassbrain x Chaotic x Bass Shaker – BELGIAN BOYBAND",
+              "start": "13:00",
+              "end": "14:00",
+              "id": "Ii3CufYYR0OwaTIoF5MSbw",
+              "host": false,
+              "sm": 780,
+              "em": 840
+            },
+            {
+              "name": "Dr. Rude",
+              "start": "14:00",
+              "end": "15:00",
+              "id": "ZWWFaElgRdeHiq3zI56k7g",
+              "host": false,
+              "sm": 840,
+              "em": 900
+            },
+            {
+              "name": "Bassbrain & Dark-E pres. “Straight Outta Brecht”",
+              "start": "15:00",
+              "end": "16:00",
+              "id": "YOBvjjMXRAOJhacU8IADAA",
+              "host": false,
+              "sm": 900,
+              "em": 960
+            },
+            {
+              "name": "Pat B b2b Miss Puss",
+              "start": "16:00",
+              "end": "17:00",
+              "id": "c9_sypDlQwW9ymyPehxb9g",
+              "host": false,
+              "sm": 960,
+              "em": 1020
+            },
+            {
+              "name": "Da Tweekaz",
+              "start": "17:00",
+              "end": "18:00",
+              "id": "brxzlUGxQ4Whghf9rSONPw",
+              "host": false,
+              "sm": 1020,
+              "em": 1080
+            },
+            {
+              "name": "Bassbrain x More Kords - Shots 'n Zaag",
+              "start": "18:00",
+              "end": "19:00",
+              "id": "ElxzOAs_TM6kDcF9v_Z1Jg",
+              "host": false,
+              "sm": 1080,
+              "em": 1140
+            },
+            {
+              "name": "DE GROTE B2B SHOW - Primeshock, LARSTIG & GASDROP, Bassbrain & many more!",
+              "start": "19:00",
+              "end": "20:00",
+              "id": "PTtMIfHzQhaTOQTjOCJyqg",
+              "host": false,
+              "sm": 1140,
+              "em": 1200
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

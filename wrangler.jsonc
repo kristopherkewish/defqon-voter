@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "defqon-voter",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-05-29",
+  "account_id": "b31e93c00ce3dd0b8d097876a5dbd701",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./dist/client",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "defqon-voter-db",
+      "database_id": "bbb863e0-58f7-47af-a4ed-a486916cc5bc"
+    }
+  ]
+}
