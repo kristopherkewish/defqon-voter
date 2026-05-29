@@ -374,16 +374,11 @@ button { font-family: inherit; cursor: pointer; }
 .m-sched-blk-t { font-family: var(--head); font-size: 9px; color: var(--dim); margin-top: 1px; }
 
 /* ---- Recommended view extras (blocks reuse .sched-blk / .m-sched-blk) ---- */
-.rec-blk.tight { border-color: var(--clash); border-left-color: var(--sc); }
 .rec-walk { font-family: var(--head); font-size: 9px; color: var(--dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
-.rec-walk.tight { color: var(--clash); }
-.rec-tag { margin-left: auto; font-family: var(--head); font-size: 8px; text-transform: uppercase; letter-spacing: .04em; color: var(--clash); border: 1px solid var(--clash); border-radius: 4px; padding: 0 3px; }
 .rec-blk-bottom { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 3px; }
 .rec-badge { font-family: var(--head); font-size: 11px; color: var(--ink); white-space: nowrap; }
 
-.m-rec-blk.tight { border-color: var(--clash); border-left-color: var(--sc); }
 .m-rec-walk { font-family: var(--head); font-size: 8px; color: var(--dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 1px; }
-.m-rec-walk.tight { color: var(--clash); }
 .m-rec-blk-bottom { display: flex; align-items: center; justify-content: space-between; gap: 5px; margin-top: 2px; }
 .m-rec-badge { font-family: var(--head); font-size: 10px; color: var(--ink); white-space: nowrap; }
 

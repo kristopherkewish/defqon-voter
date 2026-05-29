@@ -68,7 +68,7 @@ export function MRecommendedView({ recommendation, dayName, onOpen }: Props) {
               return (
                 <div
                   key={act.id}
-                  className={"m-sched-blk m-rec-blk" + (rec.tight ? " tight" : "")}
+                  className="m-sched-blk m-rec-blk"
                   style={
                     {
                       top,
@@ -81,9 +81,9 @@ export function MRecommendedView({ recommendation, dayName, onOpen }: Props) {
                   }
                   onClick={(e) => onOpen(act, stage, e.currentTarget.getBoundingClientRect())}
                 >
-                  {rec.walkMetres != null && (
-                    <div className={"m-rec-walk" + (rec.tight ? " tight" : "")}>
-                      🚶 {rec.walkMetres} m · ~{rec.walkMinutes} min{rec.tight ? " · tight" : ""}
+                  {rec.walkMetres != null && rec.walkMetres > 0 && (
+                    <div className="m-rec-walk">
+                      🚶 {rec.walkMetres} m · ~{rec.walkMinutes} min
                     </div>
                   )}
                   <div className="m-sched-blk-stage">

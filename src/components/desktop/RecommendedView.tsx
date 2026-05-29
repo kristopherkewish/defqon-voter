@@ -68,7 +68,7 @@ export function RecommendedView({ recommendation, dayName, onOpen }: Props) {
               return (
                 <div
                   key={act.id}
-                  className={"sched-blk rec-blk" + (rec.tight ? " tight" : "")}
+                  className="sched-blk rec-blk"
                   style={
                     {
                       top,
@@ -81,16 +81,14 @@ export function RecommendedView({ recommendation, dayName, onOpen }: Props) {
                   }
                   onClick={(e) => onOpen(act, stage, e.currentTarget.getBoundingClientRect())}
                 >
-                  {rec.walkMetres != null && (
-                    <div className={"rec-walk" + (rec.tight ? " tight" : "")}>
+                  {rec.walkMetres != null && rec.walkMetres > 0 && (
+                    <div className="rec-walk">
                       🚶 {rec.walkMetres} m{rec.fromStage ? ` from ${rec.fromStage}` : ""} · ~{rec.walkMinutes} min
-                      {rec.tight ? " · tight!" : ""}
                     </div>
                   )}
                   <div className="sched-blk-stage">
                     <span className="sched-dot"></span>
                     <span className="sched-blk-stage-n">{stage.name}</span>
-                    {rec.partial && <span className="rec-tag">overlaps</span>}
                   </div>
                   <div className="sched-blk-n">{act.name}</div>
                   <div className="rec-blk-bottom">

@@ -10,11 +10,6 @@ export interface RecommendedAct {
   fromStage: string | null;
   walkMetres: number | null;
   walkMinutes: number | null;
-  gapMinutes: number | null;
-  /** Walk time exceeds the gap — you probably can't make the start. */
-  tight: boolean;
-  /** Overlaps another pick in time — you'd partially attend both. */
-  partial: boolean;
 }
 
 export interface Recommendation {
@@ -71,6 +66,10 @@ export function recommendSchedule(
     }
   }
 
+  // Sets with any must-see vote — a maybe-only set yields its whole window to
+  // any of these it overlaps (must-sees always win over maybes).
+  const mustActs = cands.filter((c) => c.must > 0).map((c) => c.act);
+
   // 2. greedy by score tier (highest first); distance breaks ties within a tier
   const tiers = [...new Set(cands.map((c) => c.score))].sort((a, b) => b - a);
   const chosen: Cand[] = [];
@@ -106,7 +105,10 @@ export function recommendSchedule(
         }
       }
       pool.splice(pool.indexOf(pick), 1);
-      if (!chosen.some((s) => hardClash(pick.act, s.act))) chosen.push(pick);
+      if (chosen.some((s) => hardClash(pick.act, s.act))) continue;
+      // a maybe-only set can't take a window that overlaps any must-see set
+      if (pick.must === 0 && mustActs.some((a) => overlapMin(pick.act, a) > 0)) continue;
+      chosen.push(pick);
     }
   }
 
@@ -120,18 +122,14 @@ export function recommendSchedule(
       if (o === c) continue;
       if (o.act.em <= c.act.sm && (!prev || o.act.em > prev.act.em)) prev = o;
     }
-    const partial = chosen.some((o) => o !== c && overlapMin(o.act, c.act) > 0);
-
+    let fromStage: string | null = null;
     let walkMetres: number | null = null;
     let walkMinutes: number | null = null;
-    let gapMinutes: number | null = null;
-    let tight = false;
     if (prev) {
-      gapMinutes = c.act.sm - prev.act.em;
       walkMetres = distance(prev.stage.name, c.stage.name);
       if (walkMetres != null) {
+        fromStage = prev.stage.name;
         walkMinutes = walkMin(walkMetres);
-        tight = walkMinutes > gapMinutes;
       }
     }
     return {
@@ -139,12 +137,9 @@ export function recommendSchedule(
       stage: c.stage,
       must: c.must,
       maybe: c.maybe,
-      fromStage: prev ? prev.stage.name : null,
+      fromStage,
       walkMetres,
       walkMinutes,
-      gapMinutes,
-      tight,
-      partial,
     };
   });
 
