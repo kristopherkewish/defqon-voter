@@ -258,7 +258,7 @@ button { font-family: inherit; cursor: pointer; }
 .m-schip.minor:not(.on) { opacity: .55; }
 
 /* grid */
-.m-gridscroll { flex: 1; min-height: 0; overflow: auto; padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 30px); -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; }
+.m-gridscroll { flex: 1; min-height: 0; overflow: auto; padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 30px); -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; scroll-padding-left: 44px; }
 .m-gridscroll::-webkit-scrollbar { display: none; }
 .m-grid { display: flex; min-width: min-content; }
 .m-colhead { height: 36px; display: flex; align-items: center; gap: 5px; padding: 0 9px; font-family: var(--head); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .02em; border-bottom: 1px solid var(--line2); position: sticky; top: 0; z-index: 20; background: var(--bg2); }
