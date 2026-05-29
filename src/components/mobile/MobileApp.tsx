@@ -5,13 +5,22 @@ import { FESTIVAL, mainStagesOf } from "../../data/festival";
 import { MAvatars } from "./MAvatars";
 import { MGrid } from "./MGrid";
 import { MScheduleView } from "./MScheduleView";
+import { MRecommendedView } from "./MRecommendedView";
 import { MTray } from "./MTray";
 import { buildSchedule } from "../../lib/schedule";
+import { recommendSchedule } from "../../lib/recommend";
+import { stageDistance, walkMinutes } from "../../data/stageDistances";
 import type { CSSVars } from "../style";
 import type { Act, Stage } from "../../types";
 import type { FilterMode } from "../desktop/TimeGrid";
 
-type View = "grid" | "schedule";
+type View = "grid" | "schedule" | "recommended";
+
+const VIEWS: [View, string][] = [
+  ["grid", "▦"],
+  ["schedule", "📅"],
+  ["recommended", "⭐"],
+];
 
 interface Anchor {
   act: Act;
@@ -86,6 +95,18 @@ export function MobileApp() {
   );
   const conflicts = scheduled.filter((s) => s.cols > 1).length;
 
+  const recommendation = useMemo(
+    () =>
+      recommendSchedule(
+        day,
+        (id) => MVS.tally(id),
+        (a, b) => stageDistance(day.day, a, b),
+        walkMinutes,
+      ),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [day, JSON.stringify(MVS.all())],
+  );
+
   return (
     <div className="mroot">
       <header className="m-header">
@@ -93,12 +114,18 @@ export function MobileApp() {
           <div className="m-brand">
             DEF<b>QON</b>.1
           </div>
-          <button
-            className="m-viewtoggle"
-            onClick={() => setView(view === "grid" ? "schedule" : "grid")}
-          >
-            {view === "grid" ? "📅 Schedule" : "▦ Grid"}
-          </button>
+          <div className="m-viewtoggle">
+            {VIEWS.map(([v, icon]) => (
+              <button
+                key={v}
+                className={"m-vt-btn" + (view === v ? " on" : "")}
+                onClick={() => setView(v)}
+                aria-label={v}
+              >
+                {icon}
+              </button>
+            ))}
+          </div>
           <MAvatars />
         </div>
         <div className="m-days">
@@ -161,7 +188,7 @@ export function MobileApp() {
           </>
         )}
       </header>
-      {view === "grid" ? (
+      {view === "grid" && (
         <MGrid
           day={day}
           visible={visible}
@@ -169,9 +196,17 @@ export function MobileApp() {
           clashSet={clashSet}
           onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
         />
-      ) : (
+      )}
+      {view === "schedule" && (
         <MScheduleView
           scheduled={scheduled}
+          dayName={day.day}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      )}
+      {view === "recommended" && (
+        <MRecommendedView
+          recommendation={recommendation}
           dayName={day.day}
           onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
         />

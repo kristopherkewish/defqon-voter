@@ -6,11 +6,20 @@ import { VoterToggle } from "./VoterToggle";
 import { StageBar } from "./StageBar";
 import { TimeGrid, type FilterMode } from "./TimeGrid";
 import { ScheduleView } from "./ScheduleView";
+import { RecommendedView } from "./RecommendedView";
 import { ReactTray } from "./ReactTray";
 import { buildSchedule } from "../../lib/schedule";
+import { recommendSchedule } from "../../lib/recommend";
+import { stageDistance, walkMinutes } from "../../data/stageDistances";
 import type { Act, Stage } from "../../types";
 
-type View = "grid" | "schedule";
+type View = "grid" | "schedule" | "recommended";
+
+const VIEWS: [View, string][] = [
+  ["grid", "Grid"],
+  ["schedule", "My schedule"],
+  ["recommended", "Recommended"],
+];
 
 interface Anchor {
   act: Act;
@@ -84,6 +93,19 @@ export function DesktopApp() {
   );
   const conflicts = scheduled.filter((s) => s.cols > 1).length;
 
+  // group recommendation (cheap; recomputed when votes or day change)
+  const recommendation = useMemo(
+    () =>
+      recommendSchedule(
+        day,
+        (id) => VS.tally(id),
+        (a, b) => stageDistance(day.day, a, b),
+        walkMinutes,
+      ),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [day, JSON.stringify(VS.all())],
+  );
+
   return (
     <div className="app">
       <header className="topbar">
@@ -111,18 +133,15 @@ export function DesktopApp() {
         {view === "grid" && <StageBar day={day} visible={visible} setVisible={setVisible} />}
         <div className="subbar-right">
           <div className="viewtoggle">
-            <button
-              className={"vt-btn" + (view === "grid" ? " on" : "")}
-              onClick={() => setView("grid")}
-            >
-              Grid
-            </button>
-            <button
-              className={"vt-btn" + (view === "schedule" ? " on" : "")}
-              onClick={() => setView("schedule")}
-            >
-              My schedule
-            </button>
+            {VIEWS.map(([v, label]) => (
+              <button
+                key={v}
+                className={"vt-btn" + (view === v ? " on" : "")}
+                onClick={() => setView(v)}
+              >
+                {label}
+              </button>
+            ))}
           </div>
           {view === "grid" && (
             <div className="seg">
@@ -138,7 +157,7 @@ export function DesktopApp() {
             </div>
           )}
           <div className="stats">
-            {view === "grid" ? (
+            {view === "grid" && (
               <>
                 <span className="stat">
                   <b>{mustCount}</b> must-sees
@@ -147,7 +166,8 @@ export function DesktopApp() {
                   <b>{(clashSet.size / 2) | 0}</b> clashes
                 </span>
               </>
-            ) : (
+            )}
+            {view === "schedule" && (
               <>
                 <span className="stat">
                   <b>{scheduled.length}</b> must-sees
@@ -157,11 +177,21 @@ export function DesktopApp() {
                 </span>
               </>
             )}
+            {view === "recommended" && (
+              <>
+                <span className="stat">
+                  <b>{recommendation.setCount}</b> sets
+                </span>
+                <span className="stat">
+                  ~<b>{recommendation.totalWalkMetres}</b> m walk
+                </span>
+              </>
+            )}
           </div>
         </div>
       </div>
 
-      {view === "grid" ? (
+      {view === "grid" && (
         <TimeGrid
           day={day}
           visible={visible}
@@ -169,9 +199,17 @@ export function DesktopApp() {
           clashSet={clashSet}
           onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
         />
-      ) : (
+      )}
+      {view === "schedule" && (
         <ScheduleView
           scheduled={scheduled}
+          dayName={day.day}
+          onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
+        />
+      )}
+      {view === "recommended" && (
+        <RecommendedView
+          recommendation={recommendation}
           dayName={day.day}
           onOpen={(act, stage, rect) => setSheet({ act, stage, rect })}
         />
