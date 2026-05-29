@@ -61,22 +61,20 @@ against a **local** D1 database, so local changes never touch production data.
 ## Deployment & CI
 
 Deploys run from `wrangler` using the account in `wrangler.jsonc`. Pushing to
-`main` triggers `.github/workflows/deploy.yml`, which applies D1 migrations,
-builds, and deploys.
+`main` triggers `.github/workflows/deploy.yml`, which builds and deploys.
 
-**One-time setup to enable CI** (manual deploys with `npm run deploy` work
-without it):
+CI is enabled via the `CLOUDFLARE_API_TOKEN` repo secret (the *Edit Cloudflare
+Workers* token template is sufficient — CI does **not** need D1 permissions,
+since the D1 binding is referenced by id and migrations are applied manually).
+To rotate it:
 
-1. Create a Cloudflare API token at
-   https://dash.cloudflare.com/profile/api-tokens with permissions:
-   - **Account → Workers Scripts → Edit**
-   - **Account → D1 → Edit**
-   - **Account → Workers R2 Storage / Account Settings → Read** (used for asset uploads)
-   (the *Edit Cloudflare Workers* template covers all of these).
-2. Add it as a repo secret:
-   ```bash
-   gh secret set CLOUDFLARE_API_TOKEN -R kristopherkewish/defqon-voter
-   ```
+```bash
+gh secret set CLOUDFLARE_API_TOKEN -R kristopherkewish/defqon-voter
+```
+
+**Schema changes:** after adding a migration, apply it to the remote DB
+manually (a logged-in `wrangler` session has D1 write):
+`npx wrangler d1 migrations apply defqon-voter-db --remote`.
 
 ## Database commands
 
