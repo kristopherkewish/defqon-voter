@@ -53,10 +53,11 @@ against a **local** D1 database, so local changes never touch production data.
 | ------ | ------------- | ----------------------------------- | -------------------------------------- |
 | GET    | `/api/state`  | —                                   | `{ rev, votes }`; honours `If-None-Match` → `304` |
 | POST   | `/api/vote`   | `{ actId, userId, tier \| null }`   | upsert; `tier: null` clears the vote   |
-| POST   | `/api/reset`  | —                                   | clears all votes                       |
-| POST   | `/api/sample` | —                                   | replaces votes with a deterministic demo set |
 
 `userId` is one of `kris` / `gary` / `tanvir`; `tier` is `must` / `maybe` / `skip`.
+
+There is no reset/seed endpoint — to clear or edit votes, use D1 directly
+(see [Database commands](#database-commands)).
 
 ## Deployment & CI
 
@@ -81,6 +82,9 @@ manually (a logged-in `wrangler` session has D1 write):
 ```bash
 # Inspect remote votes
 npx wrangler d1 execute defqon-voter-db --remote --command "SELECT * FROM votes"
+
+# Clear all votes (bump the rev so clients refetch)
+npx wrangler d1 execute defqon-voter-db --remote --command "DELETE FROM votes; UPDATE meta SET value = value + 1 WHERE key = 'rev'"
 
 # Apply migrations
 npx wrangler d1 migrations apply defqon-voter-db --remote   # or --local

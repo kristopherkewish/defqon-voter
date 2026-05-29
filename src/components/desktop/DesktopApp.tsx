@@ -26,7 +26,6 @@ export function DesktopApp() {
   const day = FESTIVAL.days[dayIdx];
   const [filter, setFilter] = useState<FilterMode>("all");
   const [sheet, setSheet] = useState<Anchor | null>(null);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   // per-day stage visibility, lazily initialised to "Main"
   const visRef = useRef<Record<number, Set<string>>>({});
@@ -91,32 +90,6 @@ export function DesktopApp() {
         </nav>
         <div className="top-right">
           <VoterToggle />
-          <div className="menuwrap">
-            <button className="iconbtn" onClick={() => setMenuOpen((o) => !o)} title="Options">
-              ⋯
-            </button>
-            {menuOpen && (
-              <div className="menu" onMouseLeave={() => setMenuOpen(false)}>
-                <button
-                  onClick={() => {
-                    VS.loadSample();
-                    setMenuOpen(false);
-                  }}
-                >
-                  Load sample votes
-                </button>
-                <button
-                  className="danger"
-                  onClick={() => {
-                    if (window.confirm("Clear ALL votes for everyone?")) VS.reset();
-                    setMenuOpen(false);
-                  }}
-                >
-                  Reset all votes
-                </button>
-              </div>
-            )}
-          </div>
         </div>
       </header>
 

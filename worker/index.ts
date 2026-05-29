@@ -7,17 +7,10 @@
  * counter in the `meta` table is bumped on every write and returned as an
  * ETag, so polling clients can short-circuit with a 304 when nothing changed.
  */
-import festivalJson from "../src/data/festival.json";
-
 type TierKey = "must" | "maybe" | "skip";
 
 const USER_IDS = ["kris", "gary", "tanvir"] as const;
 const TIER_KEYS: TierKey[] = ["must", "maybe", "skip"];
-
-interface FestivalLike {
-  days: { stages: { minor: boolean; acts: { id: string }[] }[] }[];
-}
-const FESTIVAL = festivalJson as unknown as FestivalLike;
 
 const json = (data: unknown, init: ResponseInit = {}): Response =>
   new Response(JSON.stringify(data), {
@@ -49,36 +42,6 @@ async function readVotes(env: Env): Promise<Record<string, Record<string, TierKe
     (votes[r.act_id] ??= {})[r.user_id] = r.tier;
   }
   return votes;
-}
-
-/* ---- deterministic sample seed (ported verbatim from the prototype store) ---- */
-function rng(str: string, salt: number): number {
-  let h = 2166136261 ^ salt;
-  for (let i = 0; i < str.length; i++) h = Math.imul(h ^ str.charCodeAt(i), 16777619);
-  return ((h >>> 0) % 10000) / 10000;
-}
-function buildSeedRows() {
-  const rows: { actId: string; userId: string; tier: TierKey }[] = [];
-  for (const day of FESTIVAL.days) {
-    for (const stage of day.stages) {
-      if (stage.minor) continue;
-      for (const act of stage.acts) {
-        USER_IDS.forEach((uid, i) => {
-          const r = rng(act.id, i * 97 + 13);
-          if (r > 0.66) rows.push({ actId: act.id, userId: uid, tier: "must" });
-          else if (r > 0.44) rows.push({ actId: act.id, userId: uid, tier: "maybe" });
-        });
-      }
-    }
-  }
-  return rows;
-}
-
-/** Run statements in transactional chunks (stays under D1 batch limits). */
-async function batchChunked(env: Env, stmts: D1PreparedStatement[], size = 50) {
-  for (let i = 0; i < stmts.length; i += size) {
-    await env.DB.batch(stmts.slice(i, i + size));
-  }
 }
 
 async function handleApi(request: Request, env: Env): Promise<Response> {
@@ -129,26 +92,6 @@ async function handleApi(request: Request, env: Env): Promise<Response> {
           ).bind(actId, userId, tier, Date.now());
 
     await env.DB.batch([write, bumpRev(env)]);
-    return json({ rev: await getRev(env) });
-  }
-
-  // POST /api/reset — clear all votes
-  if (path === "/api/reset" && request.method === "POST") {
-    await env.DB.batch([env.DB.prepare("DELETE FROM votes"), bumpRev(env)]);
-    return json({ rev: await getRev(env) });
-  }
-
-  // POST /api/sample — replace votes with the deterministic demo set
-  if (path === "/api/sample" && request.method === "POST") {
-    const ts = Date.now();
-    const rows = buildSeedRows();
-    const stmts: D1PreparedStatement[] = [env.DB.prepare("DELETE FROM votes")];
-    const insert = env.DB.prepare(
-      "INSERT INTO votes (act_id, user_id, tier, updated_at) VALUES (?, ?, ?, ?)",
-    );
-    for (const r of rows) stmts.push(insert.bind(r.actId, r.userId, r.tier, ts));
-    stmts.push(bumpRev(env));
-    await batchChunked(env, stmts);
     return json({ rev: await getRev(env) });
   }
 

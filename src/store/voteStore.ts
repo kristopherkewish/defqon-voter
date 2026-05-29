@@ -130,24 +130,6 @@ export const store = {
     }
   },
 
-  async reset(): Promise<void> {
-    try {
-      const res = await fetch("/api/reset", { method: "POST" });
-      if (!res.ok) throw new Error(`reset failed: ${res.status}`);
-    } finally {
-      await fetchState(true).catch(() => {});
-    }
-  },
-
-  async loadSample(): Promise<void> {
-    try {
-      const res = await fetch("/api/sample", { method: "POST" });
-      if (!res.ok) throw new Error(`sample failed: ${res.status}`);
-    } finally {
-      await fetchState(true).catch(() => {});
-    }
-  },
-
   subscribe(f: () => void): () => void {
     subs.add(f);
     return () => subs.delete(f);

@@ -70,14 +70,6 @@ button { font-family: inherit; cursor: pointer; }
 .av.on { background: var(--vc); color: #07070d; border-color: var(--vc); box-shadow: 0 0 0 2px #07070d, 0 0 0 3.5px var(--vc); animation: avPop .32s cubic-bezier(.2, .8, .3, 1.5); }
 .av:not(.on):hover { border-color: var(--vc); }
 
-.menuwrap { position: relative; }
-.iconbtn { width: 32px; height: 32px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 16px; }
-.iconbtn:hover { border-color: var(--line2); }
-.menu { position: absolute; right: 0; top: 38px; background: var(--panel2); border: 1px solid var(--line2); border-radius: 10px; padding: 5px; min-width: 168px; z-index: 60; box-shadow: 0 14px 40px rgba(0, 0, 0, .6); }
-.menu button { display: block; width: 100%; text-align: left; background: transparent; border: none; color: var(--ink); padding: 9px 11px; border-radius: 7px; font-size: 14px; }
-.menu button:hover { background: var(--panel); }
-.menu button.danger { color: #ff6b6b; }
-
 /* ---------------- sub bar ---------------- */
 .subbar {
   flex: none; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
